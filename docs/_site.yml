@@ -1,7 +1,0 @@
-name: "my-website"
-output: html_document
-navbar:
-  title: "My Website"
-  left:
-    - text: "Home"
-      href: index.html
