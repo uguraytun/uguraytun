@@ -1,4 +1,5 @@
 name: "my-website"
+output: html_document
 navbar:
   title: "My Website"
   left:
