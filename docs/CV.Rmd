@@ -1,0 +1,81 @@
+---
+#  title: "Ugur Aytun"
+output: html_document
+#date: "2024-10-20"
+---
+
+
+  
+  
+##
+  
+  Click  [here](https://drive.google.com/file/d/12PedDMmyBygtcXc69DUDty8EZyiUGElg/view?usp=sharing) to see my Vita in PDF.
+  
+
+#
+#
+#
+#
+#
+#
+
+## Education
+
+2010-2017 Ph.D, Economics, [Anadolu University](https://anadolu.edu.tr/en) (Advisor: [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan))
+
+2004-2008 B.Sc, Economics, [Anadolu University](https://anadolu.edu.tr/en)
+
+
+#
+#
+#
+#
+#
+#
+
+
+
+## Experience
+2024- Postdoctoral Researcher, [Department of Economics](https://econ.metu.edu.tr/en), [METU](https://www.metu.edu.tr/), (Advisor: [Erol Taymaz](https://users.metu.edu.tr/etaymaz/))
+
+2020- Assistant Professor, Department of Economics, [Dumlupınar University](https://dpu.edu.tr/en)
+
+2010-17 Department of Economics, [Anadolu University](https://anadolu.edu.tr/en)
+
+2016-2017 Project Trainee, [CEPII](http://www.cepii.fr/CEPII/en/welcome.asp)
+
+2014 Visiting Researcher, [Department of Economics](https://www.csusb.edu/economics), [California State University, San Bernardino](https://www.csusb.edu/)
+
+#
+#
+#
+#
+#
+#
+
+## Awards & Honors
+2022-2024 [TUBITAK](https://tubitak.gov.tr/en) Project Grant (Project Number: 121G176) (TRY 450,000; Role: PI)
+
+2022-2024 [TUBITAK](https://tubitak.gov.tr/en) Project Grant (Project Number: 122R003) (TRY 211,605; Role: PI)
+
+2021 [Ibn Khaldun Best Paper](https://meeaweb.org/ibn-khaldun-winners) Award by [Middle East Economic Association (MEEA)](https://meeaweb.org/)
+
+2008 High Honor Student at the [Anadolu University](https://anadolu.edu.tr/en)
+
+#
+#
+#
+#
+#
+#
+
+## Journal Articles
+
+2024  [Shooting down trade: Firm-level effects of embargoes](sdown.html) -- with [Julian Hinz](https://julianhinz.com/) and [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) Mimeo, April 2024.
+Revise and Resubmit at [Journal of Economic Behavior and Organization](https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization).
+
+
+
+
+
+

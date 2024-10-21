@@ -1,0 +1,34 @@
+
+---
+title: "Contact"
+output: html_document
+#date: "2024-10-20"
+---
+
+#
+#
+#
+#
+#
+
+
+## 
+uaytun@metu.edu.tr
+
+ugur.aytun@dpu.edu.tr
+
+
+##
+Middle East Technical University
+
+Department of Economics
+
+ODTU - Universiteler Mah. Dumlupinar Blv. No:1 
+
+İktisadi ve İdari Bilimler Fakültesi A Binası 
+
+Room: A26-B
+
+06800
+
+Ankara, Türkiye

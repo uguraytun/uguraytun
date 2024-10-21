@@ -1,29 +1,28 @@
 ---
-title: "Ugur Aytun webpage"
+title: "Uğur Aytun"
 output: html_document
-date: "2024-10-20"
+#date: "2024-10-20"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+#
+#
+#
+#
 
-## Ugur Aytun
+##
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+I am Assistant Professor at Dumlupinar University and Postdoctoral Researcher at Middle East Technical University, Department of Economics. My research fields lie between sanctions, labor markets, custom union. I use micro-data and estimation models with high dimensional fixed effects.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r cars}
-summary(cars)
-```
+#
+#
+#
+#
+#
 
-## Including Plots
+## Upcoming presentations:
+Turkish Economic Association (TEA) conference 2024 (Fethiye)
 
-You can also embed plots, for example:
+Trier University
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+31st ERF Conference (Cairo)
