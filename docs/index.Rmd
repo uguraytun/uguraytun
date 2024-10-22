@@ -1,3 +1,6 @@
+![](C:/Users/Lenovo/Documents/GitHub/uguraytun/docs/portrait.jpg){width=25%}
+
+
 ---
 title: "Uğur Aytun"
 output: html_document
@@ -8,7 +11,6 @@ output: html_document
 #
 #
 #
-
 ##
 
 I am Assistant Professor at Dumlupinar University and Postdoctoral Researcher at Middle East Technical University, Department of Economics. My research fields lie between sanctions, labor markets, custom union. I use micro-data and estimation models with high-dimensional fixed-effects.
@@ -23,10 +25,9 @@ I am Assistant Professor at Dumlupinar University and Postdoctoral Researcher at
 ## Upcoming presentations:
 Turkish Economic Association (TEA) conference 2024 (Fethiye)
 
-
 DTSS Conference 2024 (Ankara)
 
-Trier University
+Trier University Overeducation Workshop
 
 METU Department of Economics Seminar
 

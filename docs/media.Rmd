@@ -1,0 +1,28 @@
+---
+#  title: "Ugur Aytun"
+output: html_document
+#date: "2024-10-20"
+---
+
+
+  
+
+
+## 
+
+[Türkiye’nin evden çalışması mümkün mü?](https://sarkac.org/2020/04/turkiyenin-evden-calismasi-mumkun-mu/), with [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) in [Sarkaç blog](https://sarkac.org/) (in Turkish).
+
+[Türkiye’de kimlerin evden çalışması mümkün?](https://www.birgun.net/haber/turkiye-de-kimlerin-evden-calismasi-mumkun-296722), with [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) in [BirGün newspaper](https://www.birgun.net/) (in Turkish).
+
+
+[Koronavirus salgını eşitsizlikleri arttırabilir](https://sarkac.org/2020/04/koronavirus-salgini-esitsizlikleri-arttirabilir/), with [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) in [Sarkaç blog](https://sarkac.org/) (in Turkish).
+
+
+#
+#
+#
+#
+#
+#
+
+

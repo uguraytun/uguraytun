@@ -6,5 +6,52 @@ output: html_document
 
 ## Recent
 
-2024  [Shooting down trade: Firm-level effects of embargoes](sdown.html) -- with [Julian Hinz](https://julianhinz.com/) and [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) Mimeo, April 2024.
+2025  [Shooting down trade: Firm-level effects of embargoes](sdown.html) -- with [Julian Hinz](https://julianhinz.com/) & [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) Mimeo, April 2024.
 Revise and Resubmit at [Journal of Economic Behavior and Organization](https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization).
+
+-- [Robots, Employment and Wages: Evidence from Turkish Labor Markets](robot_121G176.html) -- with [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan), [Oytun Mecik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik) & [Ümit Yapıcı](https://unis.ahievran.edu.tr/akademisyen/umityapici). Mimeo, June 2024.
+Submitted to [Journal of Knowledge Economy](https://link.springer.com/journal/13132).
+
+#
+#
+#
+
+
+## Published papers
+
+2023  [Wage Returns to Field of Study-Occupation Mismatch in Turkish Graduate Labor Market: Quantile Regression Approach](hmismatch.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik), [*Ege Academic Review*](https://dergipark.org.tr/en/pub/eab), 23, 4, 653-666.
+
+
+2021  [Global value chain integration and productivity: the case of Turkish manufacturing firms](gvc.html) -- with [Yılmaz Kılıçaslan]([Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan))  & [Oytun Meçik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik), [*Middle East Development Journal*](https://www.tandfonline.com/journals/rmdj20), 13, 1, 150-171.
+
+
+2021  [How far the apple falls from the tree: Intergenerational transmission of educational attainment in Indonesia](howfar.html) -- with [Yılmaz Kılıçaslan]([Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan))  & [Oytun Meçik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik), [*International Journal of Educational Development*](https://www.sciencedirect.com/journal/international-journal-of-educational-development), 13, 1, 150-171.
+
+2018  [Industry Level Competitiveness and Adaptation to World Demand: An Analysis on Turkey and Selected Countries](esogu_demand.html) -- with [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan), [*Eskişehir Osmangazi Üniversitesi İİBF Dergisi*](https://dergipark.org.tr/tr/pub/oguiibf), 13, 1, 143-166 (in Turkish).
+
+
+2018  [A Regional Approach to the Premature Deindustrialization in the Turkish
+Economy](metu_denind.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik), [*METU Studies in Development*](http://www2.feas.metu.edu.tr/metusd/ojs/index.php/metusd/index), 45, 1, 59-81 (in Turkish).
+
+#
+#
+#
+
+## Working papers
+2024  [The Impact of Minimum Wage Shock on Robot Adaption in Turkey](minwage_robot.html) -- with [Yusuf Emre Akgündüz](hhttp://myweb.sabanciuniv.edu/emreakgunduz/) & [Seyit Mümin Cilasun](https://www.tedu.edu.tr/en/seyit-mumin-cilasun), [*ERF Working Paper Series*](https://erf.org.eg/publication_cat/working-paper-series/).
+
+2023  [Robots, Employment and Wages: Evidence from Turkish Labor Markets](robot_121G176.html) -- with [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan), [Oytun Mecik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik) & [Ümit Yapıcı](https://unis.ahievran.edu.tr/akademisyen/umityapici), [*ERF Working Paper Series*](https://erf.org.eg/publication_cat/working-paper-series/).
+
+
+2023  [The Impact of Syrian Refugees on the Overeducation of Natives: Evidence from Turkish Labor Markets](overeducation.html) -- with [Seyit Mümin Cilasun](https://www.tedu.edu.tr/en/seyit-mumin-cilasun), [*ERF Working Paper Series*](https://erf.org.eg/publication_cat/working-paper-series/).
+
+#
+#
+#
+
+## Work in progress
+
+-- [Firm Level Effects of Minimum Wages](minwage_prices.html) -- with [Yusuf Emre Akgündüz](hhttp://myweb.sabanciuniv.edu/emreakgunduz/) & [Seyit Mümin Cilasun](https://www.tedu.edu.tr/en/seyit-mumin-cilasun)
+
+-- Firm Level Effects of Custom Union with [Erol Taymaz](https://users.metu.edu.tr/etaymaz/) & [Kamil Yılmaz](https://sites.google.com/view/kamilyilmaz/)
+

@@ -1,0 +1,21 @@
+---
+#  title: "Ugur Aytun"
+output: html_document
+#date: "2024-10-20"
+---
+
+
+#
+#
+#
+#
+#
+#
+
+## A Regional Approach to the Premature Deindustrialization in the Turkish Economy
+with [Oytun Mecik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik), [*METU Studies in Development*](http://www2.feas.metu.edu.tr/metusd/ojs/index.php/metusd/index), 45, 1, 59-81 (in Turkish).
+
+Regional economic disparities in Turkish economy have been debated for a long time. In this sense, past experiences, mainly based on developed countries, showed that regional (de)industrialization is one of the main drivers of these (in)equalities. In this paper, the “premature” deindustrialization process after 2000s is examined at region level. Findings shows that new industrial centers of middle regions existing after 1980 have a crucial
+role for both income and employment, especially for mid-tech industries. In western regions, only income share increases have observed in low- and mid-tech industries. In these regions, the employment share has been realized in the mid-tech industries and middle-skill level only for the early period. Similarly, while income share was enhancing there is no indication of employment share generation of manufacturing for eastern regions.
+
+[Link to the paper](http://www2.feas.metu.edu.tr/metusd/ojs/index.php/metusd/article/view/980)

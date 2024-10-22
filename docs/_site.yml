@@ -10,5 +10,7 @@ navbar:
       href: CV.html
     - text: "Teaching"
       href: teaching.html
+    - text: "Blog & Media"
+      href: media.html
     - text: "Contact"
       href: contact.html

@@ -1,0 +1,20 @@
+---
+  #  title: "Ugur Aytun"
+  output: html_document
+#date: "2024-10-20"
+---
+  
+  
+#
+#
+#
+#
+#
+#
+  
+## Global value chain integration and productivity: the case of Turkish manufacturing firms
+  with [Yılmaz Kılıçaslan]([Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan))  and [Oytun Meçik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik), [*Middle East Development Journal*](https://www.tandfonline.com/journals/rmdj20), 13, 1, 150-171.
+
+In this study, we examine how firms’ positions (supplier, final, or both) in both global and domestic value chains (GVC and DVC) affect their productivity. This is said to be the first attempt in exploring the impact of the integration of firms on the GVCs on productivity generation in the Turkish manufacturing industry at the firm-level. The analysis is based on firm-level data obtained from the Turkish Statistical Institute (TurkStat) and covers the period from 2003 to 2015. The data used in the analysis includes all firms employing 20 or more employees in the Turkish manufacturing industry. Our findings based on both fixed-effects and GMM estimations show that while supplier position on the domestic chain has a negative effect on productivity, the same position in GVC vanishes this effect. The final firm position in the GVC, on the other hand, provide more benefits to SMEs than to large-scale firms.
+
+[Link to the paper](https://www.tandfonline.com/doi/full/10.1080/17938120.2021.1898189)
