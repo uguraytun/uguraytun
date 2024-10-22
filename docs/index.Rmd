@@ -1,8 +1,7 @@
-![](C:/Users/Lenovo/Documents/GitHub/uguraytun/docs/portrait.jpg){width=25%}
 
 
 ---
-title: "Uğur Aytun"
+title: "![](C:/Users/Lenovo/Documents/GitHub/uguraytun/docs/portrait.jpg){width=25%}"        
 output: html_document
 #date: "2024-10-20"
 ---
@@ -11,7 +10,9 @@ output: html_document
 #
 #
 #
-##
+#
+
+## Uğur Aytun
 
 I am Assistant Professor at Dumlupinar University and Postdoctoral Researcher at Middle East Technical University, Department of Economics. My research fields lie between sanctions, labor markets, custom union. I use micro-data and estimation models with high-dimensional fixed-effects.
 

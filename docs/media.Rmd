@@ -1,5 +1,5 @@
 ---
-#  title: "Ugur Aytun"
+title: "Blog & Media"
 output: html_document
 #date: "2024-10-20"
 ---
@@ -18,11 +18,5 @@ output: html_document
 [Koronavirus salgını eşitsizlikleri arttırabilir](https://sarkac.org/2020/04/koronavirus-salgini-esitsizlikleri-arttirabilir/), with [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) in [Sarkaç blog](https://sarkac.org/) (in Turkish).
 
 
-#
-#
-#
-#
-#
-#
 
 
