@@ -4,7 +4,7 @@ output: html_document
 #date: "2024-10-20"
 ---
 
-## Published Papers
+## Recent
 
 2024  [Shooting down trade: Firm-level effects of embargoes](sdown.html) -- with [Julian Hinz](https://julianhinz.com/) and [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) Mimeo, April 2024.
 Revise and Resubmit at [Journal of Economic Behavior and Organization](https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization).

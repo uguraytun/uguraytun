@@ -11,7 +11,7 @@ output: html_document
 
 ##
 
-I am Assistant Professor at Dumlupinar University and Postdoctoral Researcher at Middle East Technical University, Department of Economics. My research fields lie between sanctions, labor markets, custom union. I use micro-data and estimation models with high dimensional fixed effects.
+I am Assistant Professor at Dumlupinar University and Postdoctoral Researcher at Middle East Technical University, Department of Economics. My research fields lie between sanctions, labor markets, custom union. I use micro-data and estimation models with high-dimensional fixed-effects.
 
 
 #
