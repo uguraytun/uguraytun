@@ -13,7 +13,7 @@ output: html_document
 #
 
 ## Firm Level Effects of Minimum Wages
-with [Yusuf Emre Akgündüz](hhttp://myweb.sabanciuniv.edu/emreakgunduz/) & [Seyit Mümin Cilasun](https://www.tedu.edu.tr/en/seyit-mumin-cilasun).
+with [Yusuf Emre Akgündüz](http://myweb.sabanciuniv.edu/emreakgunduz/) & [Seyit Mümin Cilasun](https://www.tedu.edu.tr/en/seyit-mumin-cilasun).
 
 What are the supply-side effects of minimum wages? Our paper exploits the quasi-natural experiment that Turkish government introduced an increase to minimum wages by 33.5\% in 2016. This sudden event provides a unique opportunity to study the effects of cost-related shocks on firm outcomes that can be directly passed. Using comprehensive product-level PRODCOM data covering manufacturing industry firms that employ more than twenty employees, we first document the unit price effects. Our findings show that while minimum wage shock passes through into weighted firm-level prices by about 3.7\% on average, this effect disappears after two consequent years. These findings are also similar when price pass-through model at firm-product level is estimated. In addition, the more firms operate in competitive industries, the less they pass their cost to the prices. Second, we explore broader economic consequences on sales, production, employment, and profit. We find that unlike the prices these outcomes negatively persist after minimum wage shock. Finally, profit rate decrease is stronger in industries with relatively high market power.
 

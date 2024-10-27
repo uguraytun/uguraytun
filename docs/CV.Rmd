@@ -92,7 +92,7 @@ Economy](metu_denind.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Persone
 #
 
 ## Working papers
-2024  [The Impact of Minimum Wage Shock on Robot Adaption in Turkey](minwage_robot.html) -- with [Yusuf Emre Akgündüz](hhttp://myweb.sabanciuniv.edu/emreakgunduz/) & [Seyit Mümin Cilasun](https://www.tedu.edu.tr/en/seyit-mumin-cilasun), [*ERF Working Paper Series*](https://erf.org.eg/publication_cat/working-paper-series/).
+2024  [The Impact of Minimum Wage Shock on Robot Adaption in Turkey](minwage_robot.html) -- with [Yusuf Emre Akgündüz](http://myweb.sabanciuniv.edu/emreakgunduz/) & [Seyit Mümin Cilasun](https://www.tedu.edu.tr/en/seyit-mumin-cilasun), [*ERF Working Paper Series*](https://erf.org.eg/publication_cat/working-paper-series/).
 
 2023  [Robots, Employment and Wages: Evidence from Turkish Labor Markets](robot_121G176.html) -- with [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan), [Oytun Mecik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik) & [Ümit Yapıcı](https://unis.ahievran.edu.tr/akademisyen/umityapici), [*ERF Working Paper Series*](https://erf.org.eg/publication_cat/working-paper-series/).
 
@@ -105,7 +105,7 @@ Economy](metu_denind.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Persone
 
 ## Work in progress
 
--- [Firm Level Effects of Minimum Wages](minwage_prices.html) -- with [Yusuf Emre Akgündüz](hhttp://myweb.sabanciuniv.edu/emreakgunduz/) & [Seyit Mümin Cilasun](https://www.tedu.edu.tr/en/seyit-mumin-cilasun)
+-- [Firm Level Effects of Minimum Wages](minwage_prices.html) -- with [Yusuf Emre Akgündüz](http://myweb.sabanciuniv.edu/emreakgunduz/) & [Seyit Mümin Cilasun](https://www.tedu.edu.tr/en/seyit-mumin-cilasun)
 
 -- Firm Level Effects of Custom Union with [Erol Taymaz](https://users.metu.edu.tr/etaymaz/) & [Kamil Yılmaz](https://sites.google.com/view/kamilyilmaz/)
 
