@@ -17,5 +17,9 @@ with [Yusuf Emre Akgündüz](hhttp://myweb.sabanciuniv.edu/emreakgunduz/) & [Sey
 
 In recent years, the use of industrial robots has witnessed a significant surge. While the fact that primary driver behind this surge is labor costs is widely acknowledged, there is a little attention on how cost-related shocks influence the decision to integrate robots within a firm. This paper examines how manufacturing firms in Turkey respond to a sudden 33.5% increase in the minimum wage in 2016 concerning their decisions to import robots. Using administrative employer-employee data, along with firm-level trade and balance sheet data, and employing a difference-in-differences approach with continuous treatment, the study finds that the minimum wage shock does not significantly impact robot adoption. However, this finding is contingent on firm size. Medium-sized firms exhibit a positive and significant propensity to adopt robots, with this effect being more pronounced for large firms compared to their smaller counterparts. Quantitatively, a one-point increase in the share of minimum wage employment in total employment corresponds to a 0.4% and 2.4% increase in the probability of importing robots for medium and large firms, respectively. These results hold robustly across different definitions of robot adoption. Notably, these firms display a tendency to augment their existing robotic equipment when confronted with a minimum wage shock.
 
+[Presentation slides](https://drive.google.com/file/d/1NRRV6hpBy-Kq2i9W3w-4eudjKYkuIuzk/view?usp=sharing)
 
 [Link to the paper](https://erf.org.eg/app/uploads/2024/03/1711264323_241_1559769_erf30_lbr_uguraytun_etall_88.pdf)
+
+
+
