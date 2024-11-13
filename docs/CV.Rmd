@@ -70,8 +70,8 @@ output: html_document
 #
 
 ## Journal articles
-2025  [Shooting down trade: Firm-level effects of embargoes](sdown.html) -- with [Julian Hinz](https://julianhinz.com/) & [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) Mimeo, April 2024.
-Revise and Resubmit at [Journal of Economic Behavior and Organization](https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization).
+2025  [Shooting down trade: Firm-level effects of embargoes](sdown.html) -- with [Julian Hinz](https://julianhinz.com/) & [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home).
+Forthcoming in [Journal of Economic Behavior and Organization](https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization).
 
 2023  [Wage Returns to Field of Study-Occupation Mismatch in Turkish Graduate Labor Market: Quantile Regression Approach](hmismatch.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik), [*Ege Academic Review*](https://dergipark.org.tr/en/pub/eab), 23, 4, 653-666.
 
@@ -92,8 +92,6 @@ Economy](metu_denind.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Persone
 #
 
 ## Working papers
-2024  [Shooting down trade: Firm-level effects of embargoes](sdown.html) -- with [Julian Hinz](https://julianhinz.com/) & [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home), [*Kiel Working Papers*](https://www.ifw-kiel.de/publications/kiel-working-papers/).
-
 2024  [The Impact of Minimum Wage Shock on Robot Adaption in Turkey](minwage_robot.html) -- with [Yusuf Emre Akgündüz](http://myweb.sabanciuniv.edu/emreakgunduz/) & [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun), [*ERF Working Paper Series*](https://erf.org.eg/publication_cat/working-paper-series/).
 
 2023  [Robots, Employment and Wages: Evidence from Turkish Labor Markets](robot_121G176.html) -- with [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan), [Oytun Mecik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik) & [Ümit Yapıcı](https://unis.ahievran.edu.tr/akademisyen/umityapici), [*ERF Working Paper Series*](https://erf.org.eg/publication_cat/working-paper-series/).
