@@ -7,7 +7,7 @@ output: html_document
 ## Recent
 
 2025  [Shooting down trade: Firm-level effects of embargoes](sdown.html) -- with [Julian Hinz](https://julianhinz.com/) & [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home).
-Forthcoming in [Journal of Economic Behavior and Organization](https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization).
+forthcoming in [Journal of Economic Behavior and Organization](https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization).
 
 -- [Robots, Employment and Wages: Evidence from Turkish Labor Markets](robot_121G176.html) -- with [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan), [Oytun Mecik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik) & [Ümit Yapıcı](https://unis.ahievran.edu.tr/akademisyen/umityapici). Mimeo, June 2024.
 Submitted to [Journal of Knowledge Economy](https://link.springer.com/journal/13132).
