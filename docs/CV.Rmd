@@ -71,7 +71,7 @@ output: html_document
 
 ## Journal articles
 2025  [Shooting down trade: Firm-level effects of embargoes](sdown.html) -- with [Julian Hinz](https://julianhinz.com/) & [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home).
-forthcoming in [Journal of Economic Behavior and Organization](https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization).
+forthcoming in [*Journal of Economic Behavior and Organization*](https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization).
 
 2023  [Wage Returns to Field of Study-Occupation Mismatch in Turkish Graduate Labor Market: Quantile Regression Approach](hmismatch.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik), [*Ege Academic Review*](https://dergipark.org.tr/en/pub/eab), 23, 4, 653-666.
 
@@ -120,15 +120,15 @@ Economy](metu_denind.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Persone
 
 ## Referee
 
-[Journal of the Knowledge Economy](https://link.springer.com/journal/13132)
+[*Journal of the Knowledge Economy*](https://link.springer.com/journal/13132)
 
-[International Economics](https://www.sciencedirect.com/journal/international-economics)
+[*International Economics*](https://www.sciencedirect.com/journal/international-economics)
 
-[International Migration](https://onlinelibrary.wiley.com/journal/14682435)
+[*International Migration*](https://onlinelibrary.wiley.com/journal/14682435)
 
-[Applied Economics](https://www.tandfonline.com/journals/raec20)
+[*Applied Economics*](https://www.tandfonline.com/journals/raec20)
 
-[The European Journal on Criminal Policy and Research](https://link.springer.com/journal/10610)
+[*The European Journal on Criminal Policy and Research*](https://link.springer.com/journal/10610)
 
 #
 #
