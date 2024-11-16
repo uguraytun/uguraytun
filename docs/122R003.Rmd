@@ -1,0 +1,19 @@
+---
+#  title: "Ugur Aytun"
+output: html_document
+#date: "2024-10-20"
+---
+
+
+#
+#
+#
+#
+#
+#
+
+## Exchange rate elasticity of exports and firm heterogeneity: Evidence from Turkish manufacturing firms
+with [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan), [Oytun Meçik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik) & [Ünal Töngür](https://avesis.akdeniz.edu.tr/unaltongur/).
+forthcoming in [*METU Studies in Development*](http://www2.feas.metu.edu.tr/metusd/ojs/index.php/metusd/index), (in Turkish).
+
+In recent years, exchange rate volatility has sparked debates about what constitutes a competitive exchange rate. This study aims to determine the exchange rate elasticity of exports for Turkish manufacturing firms and examine the extent to which firm heterogeneity influences this response. Utilizing a high-definition fixed effects model at the firm-product-destination level, the study analyzes the interaction between exchange rate elasticity and total factor productivity. The findings indicate that firms with higher total factor productivity are more likely to increase their prices in response to exchange rate changes. Additionally, the responses are found to be asymmetrical, with firms showing greater sensitivity to exchange rate depreciation.
