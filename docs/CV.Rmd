@@ -23,6 +23,10 @@ output: html_document
 
 2010-2017 Ph.D, Economics, [Anadolu University](https://anadolu.edu.tr/en) (Advisor: [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan))
 
+\ \ \ \ \ \ \ Thesis title: *Competitiveness and Complexity in the Manufacturing Industries:* 
+
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  *A Cross-country Analysis* (in Turkish)
+
 2004-2008 B.Sc, Economics, [Anadolu University](https://anadolu.edu.tr/en)
 
 
