@@ -1,9 +1,7 @@
 ---
-  #  title: "Ugur Aytun"
-  output: html_document
-#date: "2024-10-20"
+title: "Ugur Aytun"
+output: html_document
 ---
-  
   
 #
 #
