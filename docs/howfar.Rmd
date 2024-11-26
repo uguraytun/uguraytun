@@ -1,16 +1,10 @@
 ---
-title: "Ugur Aytun"
+title: "How far the apple falls from the tree: Intergenerational transmission of educational attainment in Indonesia"
 output: html_document
 ---
+
   
-#
-#
-#
-#
-#
-#
-  
-## How far the apple falls from the tree: Intergenerational transmission of educational attainment in Indonesia
+## 
   with [Syed Hassan Raza](http://www.qau.edu.pk/profile.php?id=809037), [*International Journal of Educational Development*](https://www.sciencedirect.com/journal/international-journal-of-educational-development), 81, 1-16.
 
 We use five waves of the Indonesian Family Life Survey (IFLS) to create unique father-son matched data of the male population (aged 25–53). Using this data, we investigate the evolution of intergenerational transmission of educational attainment in Indonesia over time, by ethnicities (six major ethnic groups), and by regions (twelve provinces). To estimate the persistence in education (measured as schooling years of the father as a predictor of schooling years of the son), we use coefficient of correlation and regression coefficient methods. Our results from the regression coefficient suggest that persistence in Indonesia is declined over time. Whereas, the results from the coefficient of correlation reveals no secular trend in education persistence over time. Thus, to understand the reason behind the secular trend in the correlation coefficient we decompose the correlation following Checchi and García-Peñalosa (2008). The decomposed intergenerational correlation shows that although the persistence is declined at the lower-end of fathers’ education distribution, it is increased at the top-end of the distribution. Therefore, we argue that the coefficient of correlation should be used with caution while analyzing the education policy particularly the persistence in education. Thereafter, we document the stationary distribution and find the conclusive evidence of non-convergence in educational attainment over time among both, ethnicities and regions.

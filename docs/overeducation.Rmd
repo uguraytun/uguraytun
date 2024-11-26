@@ -1,18 +1,11 @@
 ---
-#  title: "Ugur Aytun"
+title: "The Impact of Syrian Refugees on the Overeducation of Natives: Evidence from Turkish Labor Markets"
 output: html_document
 #date: "2024-10-20"
 ---
 
 
-#
-#
-#
-#
-#
-#
-
-## The Impact of Syrian Refugees on the Overeducation of Natives: Evidence from Turkish Labor Markets
+## 
 with [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun), [*ERF Working Paper Series*](https://erf.org.eg/publication_cat/working-paper-series/).
 
 The effects of migration on labor market outcomes, such as earnings and employment, have been well-studied in literature. However, there is little attention to how natives adjust their skills to educational requirements of jobs they occupy when they face a massive migration shock. This paper analyzes the effect of Syrian refugee inflows into Turkey beginning in 2011 on the education-job matching of the native population. By using the 2004-2019 household labor force surveys and the regional-level Syrian refugee data, we employ a difference-in-differences methodology that takes account endogenous location choices of refugees as well. We find that a one-point increase in the migrant-to-native ratio significantly reduces the overeducation of the native men in informal employment by 9%. Null effect, on the other hand, is found among native women. However, sub-sample regressions reveal significant negative overeducation effects for native men with low education attainment and aged 18-34. For native women, we also find negative effects in same sub-samples but formal employment. We evidence that our results are mostly driven by employment shifts of natives rather than switching jobs of existing workers.

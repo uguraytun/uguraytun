@@ -1,18 +1,10 @@
 ---
-#  title: "Ugur Aytun"
+title: "Firm-level Gravity with Fixed Effects"
 output: html_document
 #date: "2024-10-20"
 ---
 
-
-#
-#
-#
-#
-#
-#
-
-## Firm-level Gravity with Fixed Effects
+## 
 with [Julian Hinz](https://julianhinz.com/), [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) & [Joschka Wanner](https://www.ifw-kiel.de/experts/joschka-wanner/)
 
 This paper introduces a new method for estimating gravity equations at the firm level by leveraging both firm and country-level trade data. By constructing a flexible estimation strategy that accounts for firm-level and country-level characteristics, in particular for multilateral resistances at origin and destination, we offer a novel approach to measure the impact of policy changes such as tariffs, sanctions, etc., on trade flows. Through a series of simulations and replications of established firm-level gravity estimations, we validate the robustness of our methodology. Our findings not only contribute to the empirical trade literature by providing a more precise analytical tool but also have significant policy implications, highlighting the heterogeneous effects of economic policies on firms within and across countries.

@@ -1,18 +1,11 @@
 ---
-#  title: "Ugur Aytun"
+title: "Industry Level Competitiveness and Adaptation to World Demand: An Analysis on Turkey and Selected Countries"
 output: html_document
 #date: "2024-10-20"
 ---
 
 
-#
-#
-#
-#
-#
-#
-
-## Industry Level Competitiveness and Adaptation to World Demand: An Analysis on Turkey and Selected Countries
+## 
 with [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan), [*Eskişehir Osmangazi Üniversitesi İİBF Dergisi*](https://dergipark.org.tr/tr/pub/oguiibf), 13, 1, 143-166 (in Turkish).
 
 In this paper, we examined the trade shares performance of selected eighteen countries for each sub-sector under different technology intensities by using Constant Market Share analysis which allows us to compare this shares with world trade shares. Model findings based on BACI trade database covering period 1995-2014 showed that most of developing countries in low-, medium-, and high-tech industries rapidly increased their market shares through their attempts, competitiveness effect. Among High-income countries, especially U.S, Japan and Germany, these trade shares decrease or have stable position. These two fact can be interpreted that as a result of spreading global value chains many stages of production process in developed countries was moved to developing countries. On the other hand, Vietnam and, to a lesser extent China could improve competitiveness in the

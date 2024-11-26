@@ -1,18 +1,11 @@
 ---
-#  title: "Ugur Aytun"
+title: "Shooting down trade: Firm-level effects of embargoes"
 output: html_document
 #date: "2024-10-20"
 ---
 
 
-#
-#
-#
-#
-#
-#
 
-## Shooting down trade: Firm-level effects of embargoes
 with [Julian Hinz](https://julianhinz.com/) and [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home), forthcoming in [*Journal of Economic Behavior and Organization*](https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization).
 
 In November 2015, Turkey unexpectedly downed a Russian military jet in Syria. Russia retaliated by imposing a sudden and complete embargo on certain Turkish exports effective within a month. We exploit this quasi-natural experiment to estimate the supply side effects of imposing and lifting the sanctions. Using administrative data covering all Turkish exporters, we first document the trade effects on the intensive margin of firms. We consider the direct embargo impact, diversion effects to other destinations, and circumvention effects towards other products. Second, we investigate the broader consequences of sanctions on firms' domestic sales, purchases, and employment, uncovering significant and lasting impacts beyond trade outcomes. We find that firms are affected temporarily — shifting trade and adjusting domestic sales, purchases and employment — but do not suffer long-lasting effects after the lifting of the embargo.

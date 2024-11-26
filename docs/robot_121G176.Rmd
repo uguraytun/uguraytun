@@ -1,18 +1,11 @@
 ---
-#  title: "Ugur Aytun"
+title: "Robots, Employment and Wages: Evidence from Turkish Labor Markets"
 output: html_document
 #date: "2024-10-20"
 ---
 
 
-#
-#
-#
-#
-#
-#
-
-## Robots, Employment and Wages: Evidence from Turkish Labor Markets
+## 
 with [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan), [Oytun Mecik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik) and [Ümit Yapıcı](https://unis.ahievran.edu.tr/akademisyen/umityapici). Mimeo, June 2024.
 Submitted to [*Journal of Knowledge Economy*](https://link.springer.com/journal/13132).
 
