@@ -8,7 +8,7 @@ output: html_document
 
 ## ![](C:/Users/Lenovo/Documents/GitHub/uguraytun/docs/portrait.jpg){width=25%}
 <span style="font-size: 12pt;">
-I am an Assistant Professor at Dumlupinar University and a Postdoctoral Researcher at Middle East Technical University in the Department of Economics. I specialize in using large-scale administrative datasets at the firm and individual levels, employing advanced econometric techniques with high-dimensional fixed effects. My key areas of interest include labor markets, sanctions, and customs unions.</span>
+I am an Assistant Professor at Dumlupinar University and a Postdoctoral Researcher at Middle East Technical University in the Department of Economics. I specialize in using large-scale administrative datasets at the firm and individual levels, employing advanced econometric techniques with high-dimensional fixed effects. My key areas of interest include labor markets, sanctions, and custom unions.</span>
 
 
 #
