@@ -6,7 +6,7 @@ output: html_document
 
 **Lecturer:** Ugur Aytun, Visiting Researcher at METU
 
-**Classroom:** Computer Lab
+**Classroom:** Computer-Lab
 
 **Course prerequisites:** IS 100, ECON 206
 
@@ -59,7 +59,6 @@ Course grades will be based on 6 quizzes (10 pts each), 1 project (40 pts), and 
 There will be 7 quizzes in total, and you can take any 6 of them. There will be no make-up.
 
 The project teams will consist of 3 students. Projects will be presented on-line and be submitted by midnight, the same day.
-
 
 
 #
