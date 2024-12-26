@@ -34,7 +34,7 @@ Basic programming skills in R programming language.
 
 Accessing and importing data from various sources.
 
-Manipulating, converting and storing data using data.table, haven and fst packages.
+Manipulating, converting and storing data using data.table, collapse, haven and fst packages.
 
 Data visualization using ggplot2.
 
