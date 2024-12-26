@@ -30,23 +30,23 @@ Students will learn how to use R for economic analysis and the basic tools of da
 
 **Learning outcomes**
 
-Basic programming skills in R programming language.
+Basic programming skills in R programming language
 
-Accessing and importing data from various sources.
+Accessing and importing data from various sources
 
-Manipulating, converting and storing data using data.table, collapse, haven and fst packages.
+Manipulating, converting and storing data using data.table, collapse, haven and fst packages
 
-Data visualization using ggplot2.
+Data visualization using ggplot2
 
-Statistical analysis using regression models with fixest package.
+Statistical analysis using regression models with fixest package
 
-Difference-in-differences and event study analysis.
+Difference-in-differences and event study analysis
 
-Gravity modelling with poisson and OLS estimator.
+Poisson estimation with high-dimensional fixed effects
 
 Perform reproducible research
 
-Creating reports and presentations using R Markdown.
+Creating reports and presentations using R Markdown
 
 #
 #
@@ -80,12 +80,14 @@ The project teams will consist of 3 students. Projects will be presented on-line
 
 [Scott Cunningham, Causal Inference: The Mixtape](https://mixtape.scunning.com/)
 
+#
+#
 
 **Getting started with R and RStudio**
 
 In second week, please install R and RStudio on your computer. You can download R from [here](https://cran.r-project.org/) and RStudio from [here](https://www.rstudio.com/products/rstudio/download/).
 
-I strongly recommend to use github copilot for R programming. But you should sign up to Github before. 
+I strongly recommend to use [GitHub Copilot](https://github.com/features/copilot) for R programming. But you should sign up to Github before. 
 
 Tools > Global Options > Code > Git > Enable GitHub Copilot.
 
