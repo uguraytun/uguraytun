@@ -1,0 +1,96 @@
+---
+title: "Introduction to Data Science (ECON 413)"
+output: html_document
+#date: "2024-10-20" 
+---
+
+**Lecturer:** Ugur Aytun, Visiting Researcher at METU
+
+**Classroom:** Computer Lab
+
+**Course prerequisites:** IS 100, ECON 206
+
+#
+#
+
+**Description**
+
+Data plays a key role to obtain information about the world. Harnessing this primary source accordingly is a vital process to have meaningful interpretations. In economics it has become essential as data sources have expanded in many forms (administrative datasets, large scale surveys, social media data etc.). Aim of this course is to introduce you to modern data science toolkit. We will cover the basics of data manipulation, visualization, and statistical techniques such as regression analysis. We will use R, which is a open-source programming language and commonly used by economists, as our main tool.
+
+#
+#
+
+**Course objectives**
+
+Students will learn how to use R for economic analysis and the basic tools of data science. By using R and RStudio, students will be able to import, clean, manipulate, visualize, report, present, and analyze data. They will also learn how to write reports and create presentations using R Markdown.
+
+
+#
+#
+
+**Learning outcomes**
+
+Basic programming skills in R programming language.
+
+Accessing and importing data from various sources.
+
+Manipulating, converting and storing data using data.table, haven and fst packages.
+
+Data visualization using ggplot2.
+
+Statistical analysis using regression models with fixest package.
+
+Difference-in-differences and event study analysis.
+
+Gravity modelling with poisson and OLS estimator.
+
+Perform reproducible research
+
+Creating reports and presentations using R Markdown.
+
+#
+#
+**Grading**
+
+The course consists of lectures, quizzes, homeworks and projects.
+
+Course grades will be based on 6 quizzes (10 pts each), 1 project (40 pts), and forum participation (as a bonus, up to 10 pts).
+
+There will be 7 quizzes in total, and you can take any 6 of them. There will be no make-up.
+
+The project teams will consist of 3 students. Projects will be presented on-line and be submitted by midnight, the same day.
+
+
+
+#
+#
+**Textbooks**
+
+[Venables, W. N., Smith, D. M. and the R Core Team (2015), An Introduction to R, R Core Team](https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf)
+    
+[Grolemund, Garrett, and Wickham, Hadley (2017), R for Data Science, O’Reilly.](https://r4ds.had.co.nz/index.html)
+
+[Hanck, C., Arnold, M., Gerber,A. and Schmelzer, M. (2020), Introduction to Econometrics with R](https://www.econometrics-with-r.org/)
+
+[Julian Hinz and Irene Iodice, Data Science for Economists, Lecture Notes](https://datascience.julianhinz.com/)
+
+[Grant R. McDermott, Data science for ecoonmists, Lecture notes](https://raw.githack.com/uo-ec607/lectures/master/01-intro/01-Intro.html#1)
+
+[Nick Huntington-Klein, The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/index.html)
+
+[Nick Huntington-Klein, The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/index.html)
+
+[Scott Cunningham, Causal Inference: The Mixtape](https://mixtape.scunning.com/)
+
+
+**Getting started with R and RStudio**
+
+In second week, please install R and RStudio on your computer. You can download R from [here](https://cran.r-project.org/) and RStudio from [here](https://www.rstudio.com/products/rstudio/download/).
+
+I strongly recommend to use github copilot for R programming. But you should sign up to Github before. 
+
+Tools > Global Options > Code > Git > Enable GitHub Copilot.
+
+
+
+

@@ -4,10 +4,7 @@ output: html_document
 #date: "2024-10-20"
 ---
 
-
-  
-  
 ##
   
-  Introduction to Data Science
+  [Introduction to Data Science](dsci.html)
   
