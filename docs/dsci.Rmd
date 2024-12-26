@@ -88,7 +88,7 @@ The project teams will consist of 3 students. Projects will be presented on-line
 
 In second week, please install R and RStudio on your computer. You can download R from [here](https://cran.r-project.org/) and RStudio from [here](https://www.rstudio.com/products/rstudio/download/).
 
-I strongly recommend to use [GitHub Copilot](https://github.com/features/copilot) for R programming. But you should sign up to Github before. 
+I strongly recommend to use [GitHub Copilot](https://github.com/features/copilot) for R programming. But you should sign up to Github in advance. 
 
 Tools > Global Options > Code > Git > Enable GitHub Copilot.
 
