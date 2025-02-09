@@ -1,34 +1,52 @@
 ---
-title: "Untitled"
-output: slidy_presentation
-date: "2025-02-09"
+title: "Introduction to Data Science"
+subtitle: "ECON 413"
+author: "Ugur Aytun"
+#date: "`r Sys.Date()`"
+institute: "METU, Department of Economics"
+output:
+  xaringan::moon_reader:
+    chakra: "C:/Users/Lenovo/Documents/GitHub/uguraytun/docs/libs/remark-latest.min.js"
+    css: "C:/Users/Lenovo/Downloads/ub_theme.css"
+    includes:
+      after_body: "C:/Users/Lenovo/Downloads/ub_theme.html"
+    self_contained: true
+    nature:
+      highlightStyle: magula
+      highlightLines: true
+      countIncrementalSlides: false
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+# Table
+Right   Left     Center   Default 
+------- ------ ---------- ------- 
+     12 12        hmmm        12 
+    123 123        123       123 
+      1 1            1         1
+      
+      
+---
 
-## Slide with Bullets
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+# Introduction
 
-## Slide with R Output
+Welcome to this introduction to the *unofficial* University of Bordeaux theme.
 
-```{r cars, echo = TRUE}
-summary(cars)
+First, to use it, you need the following lines in your YAML:
+```{}
+css: "path_to/ub_theme.css"
+includes:
+  after_body: "path_to/ub_theme.html"
 ```
 
-## Slide with Plot
+You can find these files on the [dedicated Github page](https://github.com/lrberge/ub_theme/).
 
-```{r pressure}
-plot(pressure)
-```
+--
 
+This theme is a combination of CSS and javascript (.color2[actually it's mostly javascript]).
