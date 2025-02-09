@@ -1,11 +1,15 @@
 ---
 title: "Introduction to Data Science"
-output: slidy_presentation
-date: "U&#x11F;ur Aytun"
+subtitle: "(ECON 413)"
+author : "U&#x11F;ur Aytun"
+date: "`r Sys.Date()`"
+output: 
+  slidy_presentation:
+    fig_width: 10
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## R Markdown
