@@ -4,7 +4,7 @@ output: html_document
 #date: "2024-10-20" 
 ---
 
-**Lecturer:** Ugur Aytun, Visiting Researcher at METU
+**Lecturer:** U&#x11F;ur Aytun, Visiting Researcher at METU
 
 **Classroom:** Computer-Lab
 
