@@ -67,6 +67,8 @@ The project teams will consist of 3 students. Projects will be presented on-line
 #
 **Textbooks**
 
+[Erol Taymaz, Introduction to Data Science, Lecture Notes](https://users.metu.edu.tr/etaymaz/econ413.html)
+
 [Venables, W. N., Smith, D. M. and the R Core Team (2015), An Introduction to R, R Core Team](https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf)
     
 [Grolemund, Garrett, and Wickham, Hadley (2017), R for Data Science, O’Reilly.](https://r4ds.had.co.nz/index.html)
