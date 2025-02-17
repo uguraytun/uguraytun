@@ -169,6 +169,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ]
 
 ---
+# RStudio screen
+
 
 --
 - The left panel is the script editor where you write your code.
