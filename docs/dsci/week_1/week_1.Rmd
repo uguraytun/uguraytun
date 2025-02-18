@@ -256,3 +256,17 @@ summary(reg1) # Summarize the results
 ![](C:/Users/Lenovo/Documents/GitHub/uguraytun/docs/dsci/week_1/summary_reg1.jpg)
 
 ]
+
+---
+# Graph
+
+```{r}
+library(WDI)
+library(data.table)
+library(ggplot2)
+dat = setDT(WDI(indicator = "NY.GDP.PCAP.KD", country = c("TR", "KR", "US"), start = 1960, end = 2025))
+ggplot(dat, aes(year, NY.GDP.PCAP.KD, color=country)) + geom_line() + 
+  xlab("Year") + ylab("GDP per capita")
+```
+
+
