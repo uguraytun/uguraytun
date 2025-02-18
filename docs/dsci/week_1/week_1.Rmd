@@ -221,7 +221,7 @@ knitr::opts_chunk$set(echo = TRUE)
 - and then run the regression.
 
 
-<div style="overflow-y: auto; height: 500px;">
+<div style="overflow-x: auto !important; overflow-y: auto !important;">
 ---
 # Simple exercise - revisiting Kaldor Law #1
 
