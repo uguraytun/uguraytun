@@ -196,4 +196,59 @@ knitr::opts_chunk$set(echo = TRUE)
 - You can also see the plots you created.
 
 
+---
+# Simple exercise - revisiting Kaldor Law #1
+
+--
+- Kaldor states that the manufacturing industry is the engine of economic growth.
+
+
+&Delta; log(y<sub>it</sub>) = &beta;<sub>0</sub> + &beta;<sub>1</sub>&Delta; log(x<sub>it</sub>) + u<sub>it</sub>
+
+
+
+--
+- To test this hypothesis, in previous statistic packages firstly we need to download the data from the internet (WDI, FRED, Eurostat, etc.)), 
+
+--
+- import it to the software, 
+
+--
+- Prepare the data file and make the appropriate transformations,
+
+
+--
+- and then run the regression.
+
+
+<div style="overflow-y: auto; height: 500px;">
+---
+# Simple exercise - revisiting Kaldor Law #1
+
+--
+- Seven lines of code in R can do all these steps.
+
+
+```{r}
+library(WDI) # Call World Development Indicators package
+library(data.table) # Required packages to define the dataset as 
+                    #a data.table (we will learn this later)
+
+series <-  WDI_data$series # List of the series
+countries <-  WDI_data$country # List of the countries
+
+# Select the indicators, countries and time range
+
+dat2 = WDI(indicator = c("NY.GDP.MKTP.KD.ZG", # GDP growth
+                         "NV.IND.MANF.KD.ZG"), # manufacturing growth
+           country = c("all"), # All countries
+           start = 1960, end = 2025) # Time range
+
+reg1 <- lm(NY.GDP.MKTP.KD.ZG ~ NV.IND.MANF.KD.ZG, 
+           data = dat2) # Run the regression
+summary(reg1) # Summarize the results
+
+```
+</div>
+
 
