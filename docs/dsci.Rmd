@@ -95,5 +95,12 @@ I strongly recommend to use [GitHub Copilot](https://github.com/features/copilot
 Tools > Global Options > Code > Git > Enable GitHub Copilot.
 
 
+#
+#
+**Presentations**
+
+- Week 1: [Introduction to Data Science](dsci/week_1/week_1.html)
+
+
 
 

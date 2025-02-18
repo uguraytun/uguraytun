@@ -221,7 +221,7 @@ knitr::opts_chunk$set(echo = TRUE)
 - and then run the regression.
 
 
-<div style="overflow-x: auto !important; overflow-y: auto !important;">
+
 ---
 # Simple exercise - revisiting Kaldor Law #1
 
@@ -249,6 +249,10 @@ reg1 <- lm(NY.GDP.MKTP.KD.ZG ~ NV.IND.MANF.KD.ZG,
 summary(reg1) # Summarize the results
 
 ```
-</div>
 
+---
+# Simple exercise - revisiting Kaldor Law #1
+.h-400px[
+![](C:/Users/Lenovo/Documents/GitHub/uguraytun/docs/dsci/week_1/summary_reg1.jpg)
 
+]
