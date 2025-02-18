@@ -57,11 +57,18 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ---
-.h-400px[
+.h-300px[
+![](C:/Users/Lenovo/Documents/GitHub/uguraytun/docs/dsci/week_1/NBER.jpg)
+]
+.h-300px[
 ![](C:/Users/Lenovo/Documents/GitHub/uguraytun/docs/dsci/week_1/spotify.jpg)
 
 
 ]
+
+
+
+
 
 ---
 # Flight data
