@@ -7,8 +7,7 @@ output: html_document
 You can visit my [Google Scholar](https://scholar.google.com/citations?user=9pQjY1IAAAAJ&hl=en) profile.
 
 ## Recent
-2025  [Shooting down trade: Firm-level effects of embargoes](sdown.html) -- with [Julian Hinz](https://julianhinz.com/) & [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home).
-forthcoming in [*Journal of Economic Behavior and Organization*](https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization).
+2025  [Shooting down trade: Firm-level effects of embargoes](sdown.html) -- with [Julian Hinz](https://julianhinz.com/) & [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home), [*Journal of Economic Behavior and Organization*](https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization), 231, 108621.
 
 -- [Robots, Employment and Wages: Evidence from Turkish Labor Markets](robot_121G176.html) -- with [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan), [Oytun Mecik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik) & [Ümit Yapıcı](https://unis.ahievran.edu.tr/akademisyen/umityapici). Mimeo, June 2024.
 Submitted to [*Economic and Industrial Democracy*](https://journals.sagepub.com/home/eid).
