@@ -6,7 +6,9 @@ output: html_document
 
 **Lecturer:** U&#x11F;ur Aytun, Visiting Researcher at METU
 
-**Classroom:** Computer-Lab
+**Classroom:**  01:40 PM-16:30 PM Friday, Computer-Lab
+
+**Office hours:**  12:00 PM-01:00 PM Friday, A26-B
 
 **Course prerequisites:** IS 100, ECON 206
 
@@ -54,11 +56,11 @@ Creating reports and presentations using R Markdown
 #
 **Grading**
 
-The course consists of lectures, quizzes, homeworks and projects.
+The course consists of lectures, midterms, homeworks and projects.
 
-Course grades will be based on 6 quizzes (10 pts each), 1 project (40 pts), and forum participation (as a bonus, up to 10 pts).
+Course grades will be based on 2 midterms (30 pts each), 1 project (40 pts), and forum participation (as a bonus, up to 10 pts). There will be no make-up.
 
-There will be 7 quizzes in total, and you can take any 6 of them. There will be no make-up.
+ 
 
 The project teams will consist of 3 students. Projects will be presented on-line and be submitted by midnight, the same day.
 
