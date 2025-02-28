@@ -103,6 +103,8 @@ Tools > Global Options > Code > Git > Enable GitHub Copilot.
 
 - Week 1: [Introduction to Data Science](dsci/week_1/week_1.html)
 
+- Week 1: [R script file](https://drive.google.com/file/d/1Vublrj61iXOordirzN8yJPy86efu2U0U/view?usp=sharing)
+
 
 
 
