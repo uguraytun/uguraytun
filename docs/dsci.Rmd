@@ -105,6 +105,6 @@ Tools > Global Options > Code > Git > Enable GitHub Copilot.
 
 - Week 2: [Toolkit](dsci/week_2/week_2.html)
 
-
+- Week 3: [Basic Functions and Data Manipulations](dsci/week_3/week_3.html)
 
 
