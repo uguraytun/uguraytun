@@ -1,0 +1,539 @@
+---
+title: "Introduction to Data Science"
+subtitle: "Week 3: Basic Functions and Data Manipulations"
+author: "Ugur Aytun"
+#date: "`r Sys.Date()`"
+institute: "METU, Department of Economics | ECON 413"
+output:
+  xaringan::moon_reader:
+    chakra: "C:/Users/Lenovo/Documents/GitHub/uguraytun/docs/libs/remark-latest.min.js"
+    css: "C:/Users/Lenovo/Downloads/ub_theme.css"
+    includes:
+      after_body: "C:/Users/Lenovo/Downloads/ub_theme.html"
+    self_contained: true
+    nature:
+      highlightStyle: magula
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+---
+# Before starting
+
+--
+
+- Last week we have learned the basic operations in R. 
+
+--
+
+- This week we will learn some basic functions and begin to data manipulations and see some sources in Economics. 
+
+---
+# Utilities
+
+--
+
+- install.packages, update.packages, library, require
+
+--
+
+- setwd, getwd
+
+--
+
+- ?, ??, rm,  ls.str, object.size
+
+```{r}
+econ <- c(2, 5, 5) # create a vector
+week_3 <- c("basic functions", 
+            "week 3") # create a vector with strings
+object.size(econ)
+ls.str()
+```
+
+```{r}
+
+rm(econ) # remove the object econ
+
+```
+
+---
+# Basic math
+
+--
+
+- +, -, *, /, ^, %%, %/%
+
+--
+- abs, sqrt, log, exp, sin, cos, tan, asin, acos, atan
+
+--
+
+- ceiling, floor, round, trunc, signif
+
+---
+# Basic functions
+
+--
+
+- &, |, !
+
+--
+
+- ==, !=, >, <, >=, <=
+
+--
+
+- str, class, summary, describe, head, tail
+
+---
+# Common functions
+
+--
+
+- dim, ncol, nrow, length, nchar, names
+
+--
+
+- subset, unique
+
+--
+
+- ordered
+
+---
+# Vector and Data object functions
+
+--
+
+- vector, matrix, array, list, numeric, character
+
+--
+
+- data.table, cbind, rbind
+
+--
+
+- is.numeric, as.integer, as.data.frame, setDT
+
+---
+# String functions
+
+--
+
+- paste, strsplit, substr
+
+---
+# Reading and writing files
+
+--
+
+- read.csv, read.table, write.csv, write.table
+
+
+--
+
+- fwrite, fread, save, load.
+
+
+--
+
+- read_dta, read_sas, read_spss, read_excel
+
+
+
+---
+# data.table
+
+--
+
+- data.table is a package that provides an enhanced version of data.frame.
+
+
+--
+
+- It is a fast and efficient way to manipulate data. No dependency is required.
+
+
+--
+
+- It is a powerful and fast package for data manipulation.
+
+
+--
+
+- It is a package that is widely used in the academia and industry.
+
+
+--
+
+- It provides a set of functions that are optimized for speed and memory efficiency.
+
+
+
+---
+# data.table
+
+--
+
+- We first need to convert the objects to data.table objects.
+
+
+--
+
+- Several alternatives are available to convert objects to data.table objects.
+
+fread(), setDT(), as.data.table(), data.table()
+
+
+--
+
+- data.table avoids creating copies of the data, which is a common problem in data manipulation.
+
+
+
+---
+# Basic data.table syntax
+
+
+
+
+--
+
+- data_object[rows, columns, by]
+
+
+
+--
+
+- data_object is the data.table object
+
+
+--
+
+- "[" and "]" are the functions to select the data. We say to R that we work on the data_object. 
+
+
+--
+
+- rows: the rows to be selected
+
+
+--
+
+- columns: the columns to be selected
+
+
+--
+
+- by: the grouping variable
+
+
+
+---
+# Quick example
+
+```{r}
+library(data.table)
+data(starwars, package = "dplyr")
+starwars_dt <- as.data.table(starwars)
+
+starwars_dt[ species=="Human", 
+             mean(height, na.rm=T), 
+             by = gender]
+
+```
+
+
+
+---
+# Subsampling
+
+--
+
+- Show me human characters with height greater than 200 cm.
+
+
+
+
+```{r}
+library(data.table)
+data(starwars, package = "dplyr")
+starwars_dt <- as.data.table(starwars)
+
+starwars_dt[species=="Human" &
+            height > 200,]
+
+```
+
+
+
+---
+# Subsampling (cont'd)
+
+--
+
+- Create a new data set showing human characters with height greater than 200 cm.
+
+
+
+
+```{r}
+library(data.table)
+data(starwars, package = "dplyr")
+starwars_dt <- as.data.table(starwars)
+
+human_200 <-  starwars_dt[species=="Human" &
+                          height > 200,]
+
+head(human_200)
+
+```
+
+
+
+
+---
+# Subsampling (cont'd)
+
+--
+
+- Create a new data set showing first ten rows of the starwars data.
+
+
+
+
+```{r}
+library(data.table)
+data(starwars, package = "dplyr")
+starwars_dt <- as.data.table(starwars)
+
+first_ten <-  starwars_dt[1:10,]
+
+
+```
+
+
+
+
+---
+# Sorting
+
+--
+
+- Sort the data by height in descending order.
+
+```{r}
+library(data.table)
+data(starwars, package = "dplyr")
+starwars_dt <- as.data.table(starwars)
+
+starwars_dt = starwars_dt[,][order(-height)]
+
+
+```
+
+
+
+---
+# Column operations
+
+--
+
+- We use ":=" to create, delete and change columns.
+
+--
+
+- Create a new column showing the height in inches
+
+
+```{r}
+library(data.table)
+data(starwars, package = "dplyr")
+starwars_dt <- as.data.table(starwars)
+
+starwars_dt[, height_inch := height * 0.393701]
+
+```
+
+--
+
+- We can change the existing columns as well.
+
+```{r}
+starwars_dt[, height := height * 0.393701]
+```
+
+
+
+---
+# Column operations (cont'd)
+
+--
+
+- We can convert the only sub-samples to inches.
+
+```{r}
+starwars_dt[species=="Human", height_inch := height * 0.393701]
+
+```
+
+--
+
+- In this case height_inch values of for non-human species are NA (missing value).
+
+
+
+---
+# Chaining operations
+
+--
+
+- We can chain the operations in data.table.
+
+```{r}
+starwars_dt[, height_inch := height * 0.393701][, height_inch_round := round(height_inch, 2)][]
+
+
+```
+
+
+---
+# List .()
+
+--
+
+- We can use .() to create a list of variables.
+
+
+```{r}
+starwars_dt[, .(height, mass)]
+
+```
+
+
+
+
+---
+# List .() (cont'd)
+
+
+--
+
+- We can create this list as new data.table object.
+
+
+```{r}
+starwars_dt_list = starwars_dt[, .(height, mass)]
+
+```
+
+
+
+
+---
+# Change variable name
+
+--
+
+- "setnames" command is used to change the variable names.
+setnames(object_name, old = c("old_name1", "old_name2"), new = c("new_name1", "new_name2"))
+
+
+```{r}
+setnames(starwars_dt, old = "height", new = "height_cm")
+```
+
+
+
+
+---
+# Aggregating (or collapsing) data
+
+--
+
+- We can aggregate the data.
+
+
+```{r}
+starwars_dt[, mean(height_cm, na.rm=T)]
+```
+
+--
+
+- We can create this value as value.
+
+```{r}
+mean_height <- starwars_dt[, mean(height_cm, na.rm=T)]
+```
+
+
+
+---
+# by
+
+--
+
+- We can use "by" to group the data.
+
+--
+
+- We can use "by" to group the data and calculate the mean height for each species.
+
+```{r}
+starwars_dt[, mean(height_cm, na.rm=T), by = species]
+```
+
+--
+
+- We can create new data.table object.
+
+
+```{r}
+species <- starwars_dt[, .(height_cm = mean(height_cm, na.rm=T)), by = species]
+```
+
+
+
+
+---
+# Key
+
+--
+
+- We can set the key of the data.table object. Aim is to sort the data.
+
+
+```{r}
+starwars_dt <- setDT(starwars_dt, key = "height_cm")
+```
+
+
+--
+
+- or
+
+
+```{r}
+setkey(starwars_dt, height_cm)
+
+```
+
+
+
+---
+# Next week
+
+--
+
+- merge
+
+
+--
+
+- We will continue to data manipulations and see some sources in Economics.
+

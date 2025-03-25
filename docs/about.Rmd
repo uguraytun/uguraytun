@@ -10,7 +10,7 @@ You can visit my [Google Scholar](https://scholar.google.com/citations?user=9pQj
 2025  [Shooting down trade: Firm-level effects of embargoes](sdown.html) -- with [Julian Hinz](https://julianhinz.com/) & [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home), [*Journal of Economic Behavior and Organization*](https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization), 231, 108621.
 
 -- [Robots, Employment and Wages: Evidence from Turkish Labor Markets](robot_121G176.html) -- with [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan), [Oytun Mecik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik) & [Ümit Yapıcı](https://unis.ahievran.edu.tr/akademisyen/umityapici). Mimeo, June 2024.
-Submitted to [*Economic and Industrial Democracy*](https://journals.sagepub.com/home/eid).
+Submitted to [*Applied Economics Letters*](https://www.tandfonline.com/journals/rael20).
 
 #
 #
@@ -60,9 +60,26 @@ Economy](metu_denind.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Persone
 
 -- [Firm-level Effects of Minimum Wages](minwage_prices.html) -- with [Yusuf Emre Akgündüz](http://myweb.sabanciuniv.edu/emreakgunduz/) & [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun)
 
--- Firm Level Effects of Custom Union with [Erol Taymaz](https://users.metu.edu.tr/etaymaz/) & [Kamil Yılmaz](https://sites.google.com/view/kamilyilmaz/)
+-- Firm Level Effects of Custom Union with [Erol Taymaz](https://users.metu.edu.tr/etaymaz/) & [Kamil Yılmaz](https://sites.google.com/view/kamilyilmaz/).
 
 
--- [Firm-level Gravity with Fixed Effects](fes_firm.html) with [Julian Hinz](https://julianhinz.com/), [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) & [Joschka Wanner](https://www.ifw-kiel.de/experts/joschka-wanner/)
+-- [Firm-level Gravity with Fixed Effects](fes_firm.html) with [Julian Hinz](https://julianhinz.com/), [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) & [Joschka Wanner](https://www.ifw-kiel.de/experts/joschka-wanner/).
+
+
+-- [Firm-level Gravity with Fixed Effects](fes_firm.html) with [Julian Hinz](https://julianhinz.com/), [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) & [Joschka Wanner](https://www.ifw-kiel.de/experts/joschka-wanner/).
+
+
+-- Market Power, Firm Productivity, and Worker Efficiency with [Ufuk Akcigit](https://www.ufukakcigit.com/), [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun) and [Furkan Kilic](https://economics.uchicago.edu/directory/Furkan-K%C4%B1l%C4%B1c).
+
+
+
+-- Environmental Taxation and Carbon Leakage with [Sinem Ayhan](https://leibniz-ios.de/en/people/details/sinem-ayhan), [Johannes Galle](https://steg.cepr.org/researchers-directory/johannes-galle) and [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun).
+
+
+-- Impact of CBAM on Turkish Exports and Exporters with [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun).
+
+
+-- Minimum Wages and Within-Firm Wage Dispersion with [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun) and [Gonul Sengonul](https://www.ozyegin.edu.tr/en/faculty/gonulsengul).
+
 
 

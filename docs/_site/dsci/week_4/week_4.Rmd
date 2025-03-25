@@ -1,0 +1,258 @@
+---
+title: "Introduction to Data Science"
+subtitle: "Week 4: Data Manipulation with data.table"
+author: "Ugur Aytun"
+#date: "`r Sys.Date()`"
+institute: "METU, Department of Economics | ECON 413"
+output:
+  xaringan::moon_reader:
+    chakra: "C:/Users/Lenovo/Documents/GitHub/uguraytun/docs/libs/remark-latest.min.js"
+    css: "C:/Users/Lenovo/Downloads/ub_theme.css"
+    includes:
+      after_body: "C:/Users/Lenovo/Downloads/ub_theme.html"
+    self_contained: true
+    nature:
+      highlightStyle: magula
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+---
+# Call the data
+
+--
+
+- fread function helps us to import the data with external format (txt, csv etc.)
+
+
+```{r}
+setwd("H:/My Drive/ECON413")
+library(data.table)
+tariff_dataset <- setDT(fread("Data/import_isic2.csv"))
+head(tariff_dataset)
+
+```
+
+
+
+
+---
+# Call the data (cont'd)
+
+--
+
+- We can see the certain number of rows. This is helpful while opening the large datasets.
+
+
+```{r}
+setwd("H:/My Drive/ECON413")
+library(data.table)
+tariff_dataset <- setDT(fread("Data/import_isic2.csv", nrows = 200))
+tariff_dataset[, .N]
+
+```
+
+
+
+
+
+---
+# Basic characteristics of tariff_dataset object
+
+--
+
+- Head of the data (first six observations)
+
+
+```{r}
+setwd("H:/My Drive/ECON413")
+tariff_dataset <- setDT(fread("Data/import_isic2.csv"))
+head(tariff_dataset)
+
+```
+
+
+
+
+
+
+---
+# Basic characteristics of tariff_dataset object (cont'd)
+
+--
+
+- Summary statistics
+
+
+```{r}
+setwd("H:/My Drive/ECON413")
+tariff_dataset <- setDT(fread("Data/import_isic2.csv"))
+summary(tariff_dataset)
+
+```
+
+
+
+
+
+---
+# Basic characteristics of tariff_dataset object (cont'd)
+
+--
+
+- Summary statistics for a given year
+
+
+```{r}
+setwd("H:/My Drive/ECON413")
+tariff_dataset <- setDT(fread("Data/import_isic2.csv"))
+summary(tariff_dataset[year == 1995])
+
+```
+
+
+
+---
+# Basic manipulations
+
+--
+
+- Let's calculate the median value of simple tariffs for each year:
+
+
+```{r}
+setwd("H:/My Drive/ECON413")
+tariff_dataset <- setDT(fread("Data/import_isic2.csv"))
+tariff_dataset[, median(sTariff), by = c("year")]
+
+```
+
+
+
+
+
+---
+# Basic manipulations (cont'd)
+
+--
+
+- Generate this object as data.table
+
+
+```{r}
+setwd("H:/My Drive/ECON413")
+tariff_dataset <- setDT(fread("Data/import_isic2.csv"))
+yearly_tariff <- tariff_dataset[, median(sTariff, na.rm = TRUE), 
+                                by = c("year")]
+yearly_tariff
+```
+
+
+
+
+---
+# Import larger data
+
+--
+
+- BACI 2022 trade network data by CEPII:
+
+
+--
+
+- t: year, i: origin (UN country code), j: destination (UN country code), k: six-digit HS product, v: flow value (thousand USD), q: weight (tonnage)
+
+
+```{r}
+setwd("H:/My Drive/ECON413")
+trade_dataset_2022 = setDT(fread("Data/BACI_HS02_Y2022_V202401b.csv"))
+trade_dataset_2022[, .N] # number of observations
+summary(trade_dataset_2022)
+
+```
+
+
+
+
+---
+# Import larger data (cont'd)
+
+--
+
+- Turkey's total export in 2022?
+
+
+```{r}
+setwd("H:/My Drive/ECON413")
+trade_dataset_2022 = setDT(fread("Data/BACI_HS02_Y2022_V202401b.csv"))
+trade_dataset_2022[i == 792, sum(v, na.rm = TRUE)]
+
+```
+
+
+
+--
+- Turkey's total export to Germany in 2022?
+
+```{r}
+trade_dataset_2022[i == 792 & j == 276, sum(v, na.rm = TRUE)]
+
+```
+
+
+
+
+
+---
+# Import larger data (cont'd)
+
+--
+
+- Create a dataset showing Turkey's total export by each destination country in descending order
+
+
+```{r}
+partners <- trade_dataset_2022[i == 792, 
+                               .(total_export = sum(v, na.rm = TRUE)), 
+                               by = c("j")][order(-total_export)]
+partners
+```
+
+
+
+
+---
+# Binding two dataset
+
+--
+
+- 2021 data? Let's call it and merge with 2022.
+
+
+```{r}
+setwd("H:/My Drive/ECON413")
+trade_dataset_2021 <- setDT(fread("Data/BACI_HS02_Y2021_V202401b.csv"))
+trade_dataset <-  rbind(trade_dataset_2022, # 11,113,911 obs.
+                        trade_dataset_2021) # 11,358,186 obs.
+trade_dataset[, .N]
+
+```
+
+--
+
+- Turkey's total robot export by year
+
+
+```{r}
+trade_dataset[j == 792 & k == 847950, sum(v, na.rm = TRUE), by = c("t")]
+
+```
+
+
+

@@ -60,9 +60,9 @@ output: html_document
 #
 
 ## Awards & honors
-2022-2024 [TUBITAK](https://tubitak.gov.tr/en) Project Grant (Project Number: 121G176) (TRY 450,000; Role: PI)
+2022-2024 TUBITAK Project Grant, *Robots, Employment and wages* (Project Number: 121G176, Role: PI)
 
-2022-2024 [TUBITAK](https://tubitak.gov.tr/en) Project Grant (Project Number: 122R003) (TRY 211,605; Role: PI)
+2022-2024 TUBITAK Project Grant, *Elasticity of Turkish Export Outcomes to the Exchange Rates: Product and Firm Level Analysis* (Project Number: 122R003, Role: PI)
 
 2021 [Ibn Khaldun Best Paper](https://meeaweb.org/ibn-khaldun-winners) Award by [Middle East Economic Association (MEEA)](https://meeaweb.org/)
 
