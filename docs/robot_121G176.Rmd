@@ -1,7 +1,6 @@
 ---
 title: "Robots, Employment and Wages: Evidence from Turkish Labor Markets"
 output: html_document
-#date: "2024-10-20"
 ---
 
 
