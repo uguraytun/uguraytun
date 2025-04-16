@@ -1,0 +1,397 @@
+---
+title: "Introduction to Data Science"
+subtitle: "Week 5: Data Manipulation (Cont'd) and Visualization"
+author: "Ugur Aytun"
+#date: "`r Sys.Date()`"
+institute: "METU, Department of Economics | ECON 413"
+output:
+  xaringan::moon_reader:
+    chakra: "C:/Users/Lenovo/Documents/GitHub/uguraytun/docs/libs/remark-latest.min.js"
+    css: "C:/Users/Lenovo/Downloads/ub_theme.css"
+    includes:
+      after_body: "C:/Users/Lenovo/Downloads/ub_theme.html"
+    self_contained: true
+    nature:
+      highlightStyle: magula
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+
+
+
+
+---
+# Import larger data
+
+--
+
+- BACI 2022 trade network data by CEPII:
+
+
+--
+
+- t: year, i: origin (UN country code), j: destination (UN country code), k: six-digit HS product, v: flow value (thousand USD), q: weight (tonnage)
+
+
+```{r}
+library(data.table)
+setwd("H:/My Drive/ECON413")
+trade_dataset_2022 = setDT(fread("Data/BACI_HS02_Y2022_V202401b.csv"))
+trade_dataset_2022[, .N] # number of observations
+summary(trade_dataset_2022)
+
+```
+
+
+
+
+---
+# Import larger data (cont'd)
+
+--
+
+- Turkey's total export in 2022?
+
+
+```{r}
+setwd("H:/My Drive/ECON413")
+trade_dataset_2022 = setDT(fread("Data/BACI_HS02_Y2022_V202401b.csv"))
+trade_dataset_2022[i == 792, sum(v, na.rm = TRUE)]
+
+```
+
+
+
+--
+- Turkey's total export to Germany in 2022?
+
+```{r}
+trade_dataset_2022[i == 792 & j == 276, sum(v, na.rm = TRUE)]
+
+```
+
+
+
+
+
+---
+# Import larger data (cont'd)
+
+--
+
+- Create a dataset showing Turkey's total export by each destination country in descending order
+
+
+```{r}
+partners <- trade_dataset_2022[i == 792, 
+                               .(total_export = sum(v, na.rm = TRUE)), 
+                               by = c("j")][order(-total_export)]
+partners
+```
+
+
+
+
+---
+# Binding two dataset
+
+--
+
+- 2021 data? Let's call it and merge with 2022.
+
+
+```{r}
+setwd("H:/My Drive/ECON413")
+trade_dataset_2021 <- setDT(fread("Data/BACI_HS02_Y2021_V202401b.csv"))
+trade_dataset <-  rbind(trade_dataset_2022, # 11,113,911 obs.
+                        trade_dataset_2021) # 11,358,186 obs.
+trade_dataset[, .N]
+
+```
+
+--
+
+- Turkey's total robot export by year
+
+
+```{r}
+trade_dataset[j == 792 & k == 847950, sum(v, na.rm = TRUE), by = c("t")]
+
+```
+
+
+
+
+---
+# Merging country and product names
+
+--
+
+- Tired of checking the country codes online? Lets merge them.
+
+
+
+
+```{r}
+library(countrycode)
+
+countries <- codelist
+countries <- setDT(countries) # convert countries to data.table
+names(countries) # see the variable names and find appropriate columns
+
+```
+
+
+
+
+
+
+---
+# Merging country names
+
+--
+
+- we need to create two dataset to merge origin (i) and destination (j) columns
+
+
+
+
+```{r}
+
+
+countries_i = countries[, .(i = un, 
+                            i_name = un.name.en)]
+
+countries_j = countries[, .(j = un, 
+                            j_name = un.name.en)]
+
+
+
+# merge origins
+trade_dataset <- merge(trade_dataset,
+                       countries_i,
+                       by = c("i"),
+                       all.x = TRUE)
+
+
+# merge destinations
+trade_dataset <- merge(trade_dataset,
+                       countries_j,
+                       by = c("j"),
+                       all.x = TRUE)
+
+```
+
+
+
+
+---
+# Check the merged dataset
+
+
+
+```{r}
+
+
+# merge origins
+head(trade_dataset)
+
+# Total exports of Turkey to Russia, sorted by year
+trade_dataset[i_name == "Türkiye" & j_name == "Russian Federation", 
+              sum(v),
+              by = c("t")][order(t)]
+
+
+```
+
+
+
+
+
+---
+# Merge product descriptions
+
+
+
+```{r}
+
+
+library(concordance)
+
+products <- hs1_desc
+products <- setDT(products)
+
+head(products)
+
+
+
+
+
+
+```
+
+
+
+
+
+---
+# Merge product descriptions
+
+--
+
+- Product codes are string (character) and consists aggregated groupings such as two or four digit. We need to get rid of them.
+
+```{r}
+
+
+
+products[, code := as.integer(code)]
+products <- products[code > 9999] # five digit products are agriculture sector. We need keep them.
+
+# rename the code name code
+setnames(products, c("code"), c("k"))
+
+# now we merge
+trade_dataset <- merge(trade_dataset,
+                       products,
+                       by = c("k"),
+                       all.x = TRUE)
+
+
+
+```
+
+--
+
+- Some product descriptions may be not available in product dataset. We keep them by adding the option "all.x = TRUE"
+
+
+
+
+---
+# Exercise
+
+--
+
+- What is the total export from Türkiye to Russia containing the word "orange" in product description?
+
+
+--
+
+- We can use the function "str_detect" from the package "stringr" to check if a string contains another string.
+
+
+```{r}
+library(stringr)
+trade_dataset[i_name == "Türkiye" & j_name == "Russian Federation" 
+              & str_detect(desc, "orange"),
+              sum(v), by = c("t")][order(t)]
+```
+
+
+---
+# ggplot2
+
+--
+
+- ggplot2 is a data visualization package. It is very powerful and flexible. It is based on the grammar of graphics.
+
+--
+
+- It is a bit complicated at the beginning but it is worth to learn.
+
+
+--
+
+- It is a bit slow for large datasets. But it is very flexible and powerful.
+
+
+--
+
+- more? https://ggplot2.tidyverse.org/
+
+
+
+---
+# ggplot2 (cont'd)
+
+--
+
+- Example: Let's plot the Total external debt of Turkey 
+```{r}
+library(ggplot2)
+library(CBRT)
+
+
+# data catagories
+catagories <- allCBRTCategories
+
+# data groups
+groups <- (allCBRTGroups)
+
+# series
+series <- (allCBRTSeries)
+
+```
+
+
+
+
+
+
+
+
+---
+# ggplot2 (cont'd)
+
+--
+
+- Example: Let's plot the Total external debt of Turkey 
+```{r}
+library(ggplot2)
+library(CBRT)
+
+
+mySeries <- getDataSeries("TP.D1TOP", # External debt, A.Total Payments(Million USD) 
+                          CBRTKey = "MQbGGYULHO", # my API
+                          freq = 5, # monthly
+                          startDate="01-01-2013")
+
+
+mySeries <- setDT(mySeries)
+
+setnames(mySeries, c("TP.D1TOP"), c("external_debt"))
+
+
+p <-  ggplot(data = mySeries, aes(x = time, y = external_debt)) + 
+  geom_line() + theme_minimal() +
+  labs(title = "External debt of Turkey",
+       x = "Date",
+       y = "External debt (million USD)"
+  )
+
+
+```
+
+
+
+
+
+---
+# ggplot2 (cont'd)
+
+--
+
+- Example: Let's plot the Total external debt of Turkey 
+```{r}
+print(p)
+
+```
