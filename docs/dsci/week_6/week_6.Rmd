@@ -27,7 +27,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 
-
 ---
 # Maps
 
@@ -56,8 +55,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 
+
 ---
 # Loading Required Libraries and set the working directory
+
+.scrollable[
 
 ```{r}
 
@@ -71,6 +73,204 @@ library(dplyr)
 setwd("H:/My Drive/ECON413")
 
 ```
+]
+
+
+
+
+
+
+---
+# Load the shape file and check the names of the columns and map
+
+.scrollable[
+
+```{r}
+setwd("H:/My Drive/ECON413")
+
+turkey_sf <- read_sf(dsn = "Data/Turkey Administrative Borders", 
+                 layer = "TUR_adm1", geometry_column = 1L)
+
+
+print(names(turkey_sf))
+ggplot(data = turkey_sf) + geom_sf()
+
+```
+]
+
+
+
+
+---
+# Load the shape file and check the names of the columns and map (cont'd)
+
+--
+
+- st_union is used to combine multiple geometries into a single geometry. This helps us to combine the borders of provinces that are split into multiple parts.
+
+--
+
+- The `group_by` function is used to group the data by a specific column, in this case, `NAME_1`, which represents the province names.
+
+.scrollable[
+
+```{r}
+setwd("H:/My Drive/ECON413")
+
+turkey_sf$NAME_1[turkey_sf$NAME_1 == "Zinguldak"] <- "Zonguldak"
+
+turkey_sf$NAME_1[turkey_sf$NAME_1 == "Aksaray"] <- "Nigde"
+turkey_sf$NAME_1[turkey_sf$NAME_1 == "Karabük"] <- "Zonguldak"
+turkey_sf$NAME_1[turkey_sf$NAME_1 == "Bartın"] <- "Zonguldak"
+turkey_sf$NAME_1[turkey_sf$NAME_1 == "Bayburt"] <- "Gümüshane"
+turkey_sf$NAME_1[turkey_sf$NAME_1 == "Karaman"] <- "Konya"
+turkey_sf$NAME_1[turkey_sf$NAME_1 == "Kinkkale"] <- "Ankara"
+turkey_sf$NAME_1[turkey_sf$NAME_1 == "Batman"] <- "Siirt"
+turkey_sf$NAME_1[turkey_sf$NAME_1 == "Sirnak"] <- "Siirt"
+turkey_sf$NAME_1[turkey_sf$NAME_1 == "Ardahan"] <- "Kars"
+turkey_sf$NAME_1[turkey_sf$NAME_1 == "Iğdır"] <- "Kars"
+turkey_sf$NAME_1[turkey_sf$NAME_1 == "Yalova"] <- "Istanbul"
+turkey_sf$NAME_1[turkey_sf$NAME_1 == "Kilis"] <- "Gaziantep"
+turkey_sf$NAME_1[turkey_sf$NAME_1 == "Osmaniye"] <- "Adana"
+turkey_sf$NAME_1[turkey_sf$NAME_1 == "Düzce"] <- "Bolu"
+
+
+turkey_67 <- turkey_sf %>%
+  group_by(NAME_1) %>%
+  summarise(geometry = st_union(geometry), .groups = "drop")
+
+
+
+# # old map with 67 provinces
+ggplot(data = turkey_67) + geom_sf()
+
+# new map with 81 provinces
+ggplot(data = turkey_sf) + geom_sf()
+
+
+
+# create license plate numbers
+turkey_67$ilkodu <- 0
+turkey_67$ilkodu[turkey_67$NAME_1 == "Adana"] <- 1
+turkey_67$ilkodu[turkey_67$NAME_1 == "Adiyaman"] <- 2
+turkey_67$ilkodu[turkey_67$NAME_1 == "Afyon"] <- 3
+turkey_67$ilkodu[turkey_67$NAME_1 == "Agri"] <- 4
+turkey_67$ilkodu[turkey_67$NAME_1 == "Amasya"] <- 5
+turkey_67$ilkodu[turkey_67$NAME_1 == "Ankara"] <- 6
+turkey_67$ilkodu[turkey_67$NAME_1 == "Antalya"] <- 7
+turkey_67$ilkodu[turkey_67$NAME_1 == "Artvin"] <- 8
+turkey_67$ilkodu[turkey_67$NAME_1 == "Aydin"] <- 9
+turkey_67$ilkodu[turkey_67$NAME_1 == "Balikesir"] <- 10
+turkey_67$ilkodu[turkey_67$NAME_1 == "Bilecik"] <- 11
+turkey_67$ilkodu[turkey_67$NAME_1 == "Bingöl"] <- 12
+turkey_67$ilkodu[turkey_67$NAME_1 == "Bitlis"] <- 13
+turkey_67$ilkodu[turkey_67$NAME_1 == "Bolu"] <- 14
+turkey_67$ilkodu[turkey_67$NAME_1 == "Burdur"] <- 15
+turkey_67$ilkodu[turkey_67$NAME_1 == "Bursa"] <- 16
+turkey_67$ilkodu[turkey_67$NAME_1 == "Çanakkale"] <- 17
+turkey_67$ilkodu[turkey_67$NAME_1 == "Çankiri"] <- 18
+turkey_67$ilkodu[turkey_67$NAME_1 == "Çorum"] <- 19
+turkey_67$ilkodu[turkey_67$NAME_1 == "Denizli"] <- 20
+turkey_67$ilkodu[turkey_67$NAME_1 == "Diyarbakir"] <- 21
+turkey_67$ilkodu[turkey_67$NAME_1 == "Edirne"] <- 22
+turkey_67$ilkodu[turkey_67$NAME_1 == "Elazığ"] <- 23
+turkey_67$ilkodu[turkey_67$NAME_1 == "Erzincan"] <- 24
+turkey_67$ilkodu[turkey_67$NAME_1 == "Erzurum"] <- 25
+turkey_67$ilkodu[turkey_67$NAME_1 == "Eskisehir"] <- 26
+turkey_67$ilkodu[turkey_67$NAME_1 == "Gaziantep"] <- 27
+turkey_67$ilkodu[turkey_67$NAME_1 == "Giresun"] <- 28
+turkey_67$ilkodu[turkey_67$NAME_1 == "Gümüshane"] <- 29
+
+turkey_67$ilkodu[turkey_67$NAME_1 == "Hakkari"] <- 30
+turkey_67$ilkodu[turkey_67$NAME_1 == "Hatay"] <- 31
+turkey_67$ilkodu[turkey_67$NAME_1 == "Isparta"] <- 32
+turkey_67$ilkodu[turkey_67$NAME_1 == "Mersin"] <- 33
+turkey_67$ilkodu[turkey_67$NAME_1 == "Istanbul"] <- 34
+turkey_67$ilkodu[turkey_67$NAME_1 == "Izmir"] <- 35
+turkey_67$ilkodu[turkey_67$NAME_1 == "Kars"] <- 36
+turkey_67$ilkodu[turkey_67$NAME_1 == "Kastamonu"] <- 37
+turkey_67$ilkodu[turkey_67$NAME_1 == "Kayseri"] <- 38
+turkey_67$ilkodu[turkey_67$NAME_1 == "Kirklareli"] <- 39
+
+turkey_67$ilkodu[turkey_67$NAME_1 == "Kirsehir"] <- 40
+turkey_67$ilkodu[turkey_67$NAME_1 == "Kocaeli"] <- 41
+turkey_67$ilkodu[turkey_67$NAME_1 == "Konya"] <- 42
+turkey_67$ilkodu[turkey_67$NAME_1 == "Kütahya"] <- 43
+turkey_67$ilkodu[turkey_67$NAME_1 == "Malatya"] <- 44
+turkey_67$ilkodu[turkey_67$NAME_1 == "Manisa"] <- 45
+turkey_67$ilkodu[turkey_67$NAME_1 == "K. Maras"] <- 46
+turkey_67$ilkodu[turkey_67$NAME_1 == "Mardin"] <- 47
+turkey_67$ilkodu[turkey_67$NAME_1 == "Mugla"] <- 48
+turkey_67$ilkodu[turkey_67$NAME_1 == "Mus"] <- 49
+
+
+
+turkey_67$ilkodu[turkey_67$NAME_1 == "Nevsehir"] <- 50
+turkey_67$ilkodu[turkey_67$NAME_1 == "Nigde"] <- 51
+turkey_67$ilkodu[turkey_67$NAME_1 == "Ordu"] <- 52
+turkey_67$ilkodu[turkey_67$NAME_1 == "Rize"] <- 53
+turkey_67$ilkodu[turkey_67$NAME_1 == "Sakarya"] <- 54
+turkey_67$ilkodu[turkey_67$NAME_1 == "Samsun"] <- 55
+turkey_67$ilkodu[turkey_67$NAME_1 == "Siirt"] <- 56
+turkey_67$ilkodu[turkey_67$NAME_1 == "Sinop"] <- 57
+turkey_67$ilkodu[turkey_67$NAME_1 == "Sivas"] <- 58
+turkey_67$ilkodu[turkey_67$NAME_1 == "Tekirdag"] <- 59
+
+
+turkey_67$ilkodu[turkey_67$NAME_1 == "Tokat"] <- 60
+turkey_67$ilkodu[turkey_67$NAME_1 == "Trabzon"] <- 61
+turkey_67$ilkodu[turkey_67$NAME_1 == "Tunceli"] <- 62
+turkey_67$ilkodu[turkey_67$NAME_1 == "Sanliurfa"] <- 63
+turkey_67$ilkodu[turkey_67$NAME_1 == "Usak"] <- 64
+turkey_67$ilkodu[turkey_67$NAME_1 == "Van"] <- 65
+turkey_67$ilkodu[turkey_67$NAME_1 == "Yozgat"] <- 66
+turkey_67$ilkodu[turkey_67$NAME_1 == "Zonguldak"] <- 67
+
+```
+]
+
+
+
+
+
+---
+# Load the output tariff exposure datasets of provinces
+
+.scrollable[
+```{r}
+setwd("H:/My Drive/ECON413")
+
+output_exposure_province <- setDT(fread("Data/map_output.csv"))
+setnames(output_exposure_province, c("il", "exposure"), c("ilkodu", "exposure_output"))
+
+# merge turkey_67 and output_exposure_province
+turkey_67 <- merge(turkey_67, 
+                   output_exposure_province, 
+                   by = c("ilkodu"), 
+                   all.x = TRUE)
+turkey_67$exposure_output[is.na(turkey_67$exposure_output)] <- 0
+                   
+
+
+# plot
+ggplot(data = turkey_67) + 
+  geom_sf(aes(fill = exposure_output), color = "white") + 
+  geom_sf_text(aes(label = NAME_1) , color = "yellow", size = 2)  + 
+  labs(title = "Output exposure across provinces") +
+  scale_fill_gradient(
+    name = "Exposure Level",
+    low = "lightblue", high = "darkblue",
+    limits = c(min(turkey_67$exposure_output), 10),  # set upper limit
+    oob = squish  # values >5 will be colored as if they were 10
+  ) +
+  theme_void() +
+  theme(plot.title = element_text(hjust = 0.5),
+        legend.position = c(0.075, 0.20))
+
+
+
+```
+]
 
 
 
@@ -78,16 +278,43 @@ setwd("H:/My Drive/ECON413")
 
 
 
+---
+# Load the input exposure datasets of provinces
+
+.scrollable[
+```{r}
+setwd("H:/My Drive/ECON413")
+
+input_exposure_province <- setDT(fread("Data/map_input.csv"))
+setnames(input_exposure_province, c("il", "exposure"), c("ilkodu", "exposure_input"))
 
 
 
 
+# merge turkey_67 and output_exposure_province
+turkey_67 <- merge(turkey_67, 
+                   input_exposure_province, 
+                   by = c("ilkodu"), 
+                   all.x = TRUE)
+turkey_67$exposure_input[is.na(turkey_67$exposure_input)] <- 0
 
 
 
 
+# plot
+ggplot(data = turkey_67) + 
+  geom_sf(aes(fill = exposure_input), color = "white") + 
+  geom_sf_text(aes(label = NAME_1) , color = "yellow", size = 2)  + 
+  labs(title = "Input exposure across provinces") +
+  scale_fill_gradient(
+    name = "Exposure Level",
+    low = "lightblue", high = "darkblue",
+    limits = c(min(turkey_67$exposure_input), 2),  # set upper limit
+    oob = squish  # values >5 will be colored as if they were 2
+  ) +
+  theme_void() +
+  theme(plot.title = element_text(hjust = 0.5),
+        legend.position = c(0.075, 0.20))
 
-
-
-
-
+```
+]
