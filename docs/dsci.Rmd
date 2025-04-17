@@ -111,3 +111,4 @@ Tools > Global Options > Code > Git > Enable GitHub Copilot.
 
 - Week 5: [Week 5: Data Manipulation (Cont'd) and Visualization](dsci/week_5/week_5.html)
 
+- Week 6: [Week 6: Maps and Data Visualization](dsci/week_6/week_6.html)

@@ -1,0 +1,93 @@
+---
+title: "Introduction to Data Science"
+subtitle: "Week 6: Maps and Data Visualization"
+author: "Ugur Aytun"
+#date: "`r Sys.Date()`"
+institute: "METU, Department of Economics | ECON 413"
+output:
+  xaringan::moon_reader:
+    chakra: "C:/Users/Lenovo/Documents/GitHub/uguraytun/docs/libs/remark-latest.min.js"
+    css: ["default", "C:/Users/Lenovo/Downloads/ub_theme.css"]
+    includes:
+      after_body: "C:/Users/Lenovo/Downloads/ub_theme.html"
+    self_contained: true
+    nature:
+      highlightStyle: magula
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+
+
+
+
+---
+# Maps
+
+--
+
+- Maps are a great way to visualize data that has a geographic component.
+
+--
+
+- They can help us understand spatial relationships and patterns in the data.
+
+
+--
+
+- In R, we can create maps using the `sf` package for spatial data and the `ggplot2` package for visualization.
+
+
+--
+
+- The `sf` package provides a simple and consistent way to work with spatial data in R, while `ggplot2` allows us to create beautiful and customizable visualizations.
+
+
+--
+
+- In this week, we will learn how to create maps using the `sf` and `ggplot2` packages in R.
+
+
+
+---
+# Loading Required Libraries and set the working directory
+
+```{r}
+
+library(data.table)
+library(sf)
+library(ggplot2)
+library(maps)
+library(scales)  # for squish
+library(dplyr)
+
+setwd("H:/My Drive/ECON413")
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
