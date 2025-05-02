@@ -60,6 +60,8 @@ output: html_document
 #
 
 ## Awards & honors
+2025 Best Paper Award by [Economic Research Forum (ERF)](https://erf.org.eg)
+
 2022-2024 TUBITAK Project Grant, *Robots, Employment and wages* (Project Number: 121G176, Role: PI)
 
 2022-2024 TUBITAK Project Grant, *Elasticity of Turkish Export Outcomes to the Exchange Rates: Product and Firm Level Analysis* (Project Number: 122R003, Role: PI)
