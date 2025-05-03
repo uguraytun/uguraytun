@@ -1,0 +1,20 @@
+---
+title: "Even the announcement matters? The effect of CBAM on exports and exporters"
+output: html_document
+#date: "2024-10-20"
+---
+  
+  
+  ## 
+with [Gunhild Berg](https://blogs.worldbank.org/en/team/g/gunhild-berg),  [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun) & [Etkin Özen](https://blogs.worldbank.org/en/team/e/etkin-ozen)
+
+This study examines the impact of the first Carbon Border Adjustment Mechanism (CBAM) announcement on Turkish exports and exporters. Using firm-level data from 2019 to 2023, we analyze the effect of CBAM exposure on export values, product and destination diversification, unit prices, and firms’ investment and credit decisions. Employing a difference-in-differences framework, we find that firms with higher CBAM exposure experienced a decline in exports to the EU while increasing their exports to non-EU countries. The number of CBAM-related products and destinations followed a similar pattern, suggesting a trade diversion effect. Additionally, firms responded to CBAM by increasing investment, particularly in machinery and equipment, while the impact on credit uptake remained statistically insignificant. Event study analyses further confirm these findings, showing a gradual adjustment in firms’ export behavior following the CBAM announcement. These results highlight that even policy announcements, before actual implementation, can significantly influence firm decisions and international trade patterns.
+
+
+##
+
+[Presentation slides](https://uguraytun.github.io/uguraytun/CBAM_metu.pdf)
+
+
+
+
