@@ -48,9 +48,10 @@ Economy](metu_denind.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Persone
 #
 
 ## Working papers
-2024  [The Impact of Minimum Wage Shock on Robot Adaption in Turkey](minwage_robot.html) -- with [Yusuf Emre Akgündüz](http://myweb.sabanciuniv.edu/emreakgunduz/) & [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun), [*ERF Working Paper Series*](https://erf.org.eg/publication_cat/working-paper-series/).
+2025 [Firm-level Effects of Minimum Wages](minwage_prices.html) -- with [Yusuf Emre Akgündüz](http://myweb.sabanciuniv.edu/emreakgunduz/), [Seyit Mümin Cılasun](https://avesis.tedu.edu.tr/seyit.cilasun) & [Murat G. Kırdar](https://muratguraykirdar.weebly.com/), [*ERF Working Paper Series*](https://erf.org.eg/publication_cat/working-paper-series/).
 
-2023  [Robots, Employment and Wages: Evidence from Turkish Labor Markets](robot_121G176.html) -- with [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan), [Oytun Mecik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik) & [Ümit Yapıcı](https://unis.ahievran.edu.tr/akademisyen/umityapici), [*ERF Working Paper Series*](https://erf.org.eg/publication_cat/working-paper-series/).
+
+2024  [The Impact of Minimum Wage Shock on Robot Adaption in Turkey](minwage_robot.html) -- with [Yusuf Emre Akgündüz](http://myweb.sabanciuniv.edu/emreakgunduz/) & [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun), [*ERF Working Paper Series*](https://erf.org.eg/publication_cat/working-paper-series/).
 
 
 
@@ -60,8 +61,6 @@ Economy](metu_denind.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Persone
 #
 
 ## Work in progress
-
--- [Firm-level Effects of Minimum Wages](minwage_prices.html) -- with [Yusuf Emre Akgündüz](http://myweb.sabanciuniv.edu/emreakgunduz/) & [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun)
 
 -- Firm Level Effects of Custom Union with [Erol Taymaz](https://users.metu.edu.tr/etaymaz/) & [Kamil Yılmaz](https://sites.google.com/view/kamilyilmaz/).
 
@@ -79,7 +78,7 @@ Economy](metu_denind.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Persone
 -- Environmental Taxation and Carbon Leakage with [Sinem Ayhan](https://leibniz-ios.de/en/people/details/sinem-ayhan), [Johannes Galle](https://steg.cepr.org/researchers-directory/johannes-galle) and [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun).
 
 
--- Impact of CBAM on Turkish Exports and Exporters with [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun).
+-- [Even the announcement matters? The effect of CBAM on exports and exporters](cbam.html) -- with [Gunhild Berg](https://blogs.worldbank.org/en/team/g/gunhild-berg),  [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun) & [Etkin Özen](https://blogs.worldbank.org/en/team/e/etkin-ozen)
 
 
 -- Minimum Wages and Within-Firm Wage Dispersion with [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun) and [Gonul Sengonul](https://www.ozyegin.edu.tr/en/faculty/gonulsengul).
