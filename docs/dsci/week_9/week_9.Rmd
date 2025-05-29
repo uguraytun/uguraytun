@@ -1,0 +1,267 @@
+---
+title: "Introduction to Data Science"
+subtitle: "Week 9: Causal inference and Regression Analysis with difference-in-differences (DiD)"
+author: "Ugur Aytun"
+#date: "`r Sys.Date()`"
+institute: "METU, Department of Economics | ECON 413"
+output:
+  xaringan::moon_reader:
+    chakra: "C:/Users/Lenovo/Documents/GitHub/uguraytun/docs/libs/remark-latest.min.js"
+    css: ["default", "C:/Users/Lenovo/Downloads/ub_theme.css"]
+    includes:
+      after_body: "C:/Users/Lenovo/Downloads/ub_theme.html"
+    self_contained: true
+    nature:
+      highlightStyle: magula
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+---
+# Causal inference
+
+--
+
+- Causal inference is the process of drawing conclusions about causal relationships from data, often using statistical methods to control for confounding variables.
+
+--
+
+- It is important to distinguish between correlation and causation, as correlation does not imply causation.
+
+--
+
+- Causal inference methods include randomized controlled trials, observational studies, and quasi-experimental designs.
+
+
+--
+
+- Difference-in-differences (DiD) is a quasi-experimental design that compares the changes in outcomes over time between a treatment group and a control group, allowing for the estimation of causal effects.
+
+
+--
+
+- RDD (Regression Discontinuity Design) is another quasi-experimental design that exploits a cutoff or threshold to identify causal effects, often used when random assignment is not feasible.
+
+
+
+---
+# Causal inference
+
+
+--
+
+- Instrumental variables (IV) are used to address endogeneity issues in regression analysis, where an instrument is correlated with the treatment but not directly with the outcome, allowing for causal inference.
+
+
+--
+
+- PSM (Propensity Score Matching) is a method used to control for confounding variables by matching treated and control units based on their propensity scores, which estimate the probability of treatment assignment given observed covariates.
+
+
+--
+
+- As we saw in the last week, `fixest` package can be used to implement causal inference methods in R, including DiD, RDD, IV, and PSM, providing a flexible framework for regression analysis with fixed effects.
+
+
+
+---
+# Popularity of causal inference methods
+
+
+.h-400px[
+![](C:/Users/Lenovo/Documents/GitHub/uguraytun/docs/dsci/week_9/NBER.png)
+
+]
+
+
+
+
+
+
+---
+# DiD
+
+
+--
+
+- DiD is a method used to estimate the causal effect of a treatment on an outcome by comparing the changes in outcomes over time between a treatment group and a control group.
+
+--
+
+- For example, if a new policy is implemented in one state but not in another, the changes in outcomes in the two states can be compared to estimate the effect of the policy.
+
+--
+
+- In this lecture, we will focus on the difference-in-differences (DiD) method, which is a popular approach in causal inference.
+
+
+
+
+
+
+---
+# Did Brexit have an effect on the Turkish export flows to the UK?
+
+
+.scrollable[
+```{r}
+# Clear workspace and garbage collection
+
+rm(list = ls())
+gc()
+
+#library('R.utils')
+library(data.table)
+library(sf)
+library(ggplot2)
+library(maps)
+library(scales)  # for squish
+library(dplyr)
+library(fixest)
+
+setwd("H:/My Drive/ECON413")
+
+# Call the trade dataset
+
+trade_data <- setDT(fread("data/trade data.csv"))
+
+
+# drop the unnecessary columns and change the column names
+
+trade_data <- trade_data[, .(year = period,
+                             partnercode =  partnerCode,
+                             partnername  = partnerDesc,
+                             value =  primaryValue)]
+
+
+
+# generate the treatment variable that takes valus of one the partner is the UK after Brexit date
+trade_data[, treatment := as.integer(partnercode == 826 & year >= 2016)]
+
+
+reg_brexit <- feols(log(value) ~
+                      treatment  | # variable of interest
+                      partnercode + year, # fixed effects
+                    data = trade_data,
+                    cluster = c("partnercode"))
+summary(reg_brexit)
+
+# The coefficient of the treatment variable is 0.12, 
+# which means that the Brexit had a negative effect on the Turkey after 2016 export to the UK compared to other partners.
+
+
+
+```
+
+]
+
+
+
+---
+# Effectiveness of active choice organ donor policy of California
+
+.scrollable[
+```{r}
+
+
+#  install.packages("causaldata")
+#  install.packages("modelsummary")
+
+library(data.table)
+library(fixest)
+library(causaldata)
+
+# call the organ donations dataset  
+od <- causaldata::organ_donations
+
+
+od <- setDT(od)
+
+od[, treated := as.integer(State == "California" & 
+                             (Quarter == "Q32011" | 
+                                Quarter ==  "Q42011" | 
+                                Quarter ==  "Q12012"))]
+
+
+clfe <- feols(Rate ~ treated | State + Quarter,
+              data = od)
+
+summary(clfe)
+
+
+# Create dummy for the California
+
+od[, California := as.integer(State == "California")]
+
+
+# We implement event study to see the effect of the treatment over time.
+# it is also a placebo for the treatment effect. There should be no effect before the treatment.
+
+# event study
+clfe <- feols(Rate ~ i(Quarter_Num, California, ref = 3) | 
+                State + Quarter_Num, data = od)
+
+summary(clfe)
+
+
+coefplot(clfe)
+
+
+
+```
+]
+
+
+
+---
+# Event study
+
+--
+
+- An event study is a statistical method used to assess the impact of a specific event on the value of a firm or an economy.
+
+--
+
+- It serves two thing: parallel trend test that the treatment and control groups have similar trends before the event, and the dynamic effect of the event on the outcome variable.
+
+
+
+---
+# Timing of the treatment
+
+--
+
+- Examples above assume that the treatment is applied at the same time for all units, which is defined as non-staggered DiD.
+
+
+--
+
+- If the timing of the treatment is not common across units, staggered DiD can be used to estimate the treatment effect by allowing for different treatment timings across units.
+
+
+--
+
+- Modern methods for staggered DiD include the use of synthetic control methods, which create a synthetic control group that mimics the characteristics of the treatment group before the treatment.
+
+
+
+
+---
+# Exposure to the treatment
+
+--
+
+- In some cases, the treatment may not be applied uniformly across all units, leading to varying levels of exposure to the treatment.
+
+--
+
+- In this case treatment is not binary, but continuous, and the treatment effect can be estimated using a continuous treatment variable.
+
+

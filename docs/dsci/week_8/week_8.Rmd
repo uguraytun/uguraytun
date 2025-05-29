@@ -1,0 +1,245 @@
+---
+title: "Introduction to Data Science"
+subtitle: "Week 8: Regression analysis"
+author: "Ugur Aytun"
+#date: "`r Sys.Date()`"
+institute: "METU, Department of Economics | ECON 413"
+output:
+  xaringan::moon_reader:
+    chakra: "C:/Users/Lenovo/Documents/GitHub/uguraytun/docs/libs/remark-latest.min.js"
+    css: ["default", "C:/Users/Lenovo/Downloads/ub_theme.css"]
+    includes:
+      after_body: "C:/Users/Lenovo/Downloads/ub_theme.html"
+    self_contained: true
+    nature:
+      highlightStyle: magula
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+
+
+
+---
+# Maps
+
+--
+
+- I show you the regression analysis in the next week with a brief introduction to the topic.
+
+
+--
+
+- Regression analysis is a statistical method used to understand the relationship between variables, often used for prediction and forecasting.
+
+--
+
+- We can also infer causal relationships, but we need to be careful about the assumptions we make.
+
+--
+
+- `fixest` package is used for regression analysis in R, which allows for efficient estimation of linear models with fixed effects.
+
+
+
+
+---
+# Key concepts in regression analysis
+
+--
+
+- Outcome variable: The variable we are trying to explain or predict.
+
+
+--
+
+- Control variable: Additional variables included in the model to account for other factors that may influence the outcome variable.
+
+--
+
+- We can also infer causal relationships, but we need to be careful about the assumptions we make.
+
+--
+
+- Economic theory or intuition: The underlying economic principles or reasoning that guide the choice of variables in the regression model.
+
+
+
+
+
+---
+# Random sample of data
+
+.scrollable[
+```{r}
+
+# install.packages("fixest") and set the working directory
+
+#library('R.utils')
+library(data.table)
+library(sf)
+library(ggplot2)
+library(maps)
+library(scales)  # for squish
+library(dplyr)
+
+setwd("H:/My Drive/ECON413")
+
+
+# install.packages("fixest")
+
+library(fixest)
+library(data.table)
+
+# create a random dataset
+
+set.seed(123)
+n <- 1000
+x1 <- rnorm(n)
+x2 <- rnorm(n)
+x3 <- rnorm(n)
+
+# create a data frame
+
+df <- data.frame(y = rnorm(n), x1 = x1, x2 = x2, x3 = x3)
+
+# create a data table
+
+df <- as.data.table(df)
+
+# create a data frame with a factor variable
+
+df <- data.frame(y = rnorm(n), x1 = x1, x2 = x2, x3 = x3, group = sample(1:10, n, replace = TRUE))
+
+
+# regression with fixest
+
+reg1 <-  feols(y # dependent variable
+               ~ x1 + x2 + x3 # independent variables
+               | group, # fixed effects
+               data = df) # data frame
+summary(reg1) # summary of the regression 
+
+# interpret the results
+# the coefficients of x1, x2, and x3 are the average effect of these variables on y
+# the fixed effects are the average effect of the each group (related to reference category) on y
+
+# tabualte the results with more information
+table_1 <- etable(reg1) 
+table_1
+
+
+# save as a latex format
+etable(reg1, file = "results/table_1.tex") # save as a tex format. 
+# What is LaTeX?
+
+
+# add cluster. What is cluster in the regression analysis?
+
+reg1 <-  feols(y # dependent variable
+               ~ x1 + x2 + x3 # independent variables
+               | group, # fixed effects
+               data = df,
+               cluster = c("group")) # data frame
+summary(reg1) # summary of the regression 
+
+
+
+```
+]
+
+
+
+---
+# Regression analysis with a real dataset
+.scrollable[
+```{r}
+library(WDI)
+
+series <-  WDI_data$series
+countries <-  WDI_data$country
+
+
+# Revisiting the relationship between manufacturing industry and GDP per capita (Kaldor Law #1)
+
+dat2 <- WDI(indicator = c("NY.GDP.MKTP.KD.ZG", # GDP growth
+                         "NV.IND.MANF.KD.ZG"), # manufacturing growth
+           country = c("all"), start = 1960, end = 2025)
+
+
+# without fixed effects
+reg1 <- feols(NY.GDP.MKTP.KD.ZG ~  # gdp growth
+                NV.IND.MANF.KD.ZG, # manufacturing growth
+              cluster = c("country"), # cluster
+              data = dat2)
+
+summary(reg1)
+
+
+
+reg2 <- feols(NY.GDP.MKTP.KD.ZG ~ 
+                NV.IND.MANF.KD.ZG |
+                country + year, # fixed effects
+              cluster = c("country"), # cluster
+              data = dat2)
+
+summary(reg2)
+
+
+etable(reg1, reg2)
+
+```
+]
+
+
+
+
+
+
+---
+# Marginal propenity to consumption (MPC) and the consumption function
+.scrollable[
+```{r}
+# marginal propensity to consume (MPC)
+# MPC is the change in consumption divided by the change in income
+# MPC = change in consumption / change in income
+# lets run a regression
+
+consumption_datasets <- WDIsearch(string = "consumption", 
+                                  field = "name", 
+                                  short = TRUE, cache = NULL)
+
+gdp_datasets <- WDIsearch(string = "gdp", 
+                                  field = "name", 
+                                  short = TRUE, cache = NULL)
+
+
+
+
+
+
+dat3 <- WDI(indicator = c("NE.CON.TOTL.KD", # Final consumption expenditure (constant 2015 US$)
+                          "NY.GDP.MKTP.KD"), # GDP
+           country = c("all"), start = 1960, end = 2025)
+
+
+reg4 <- feols(log(NE.CON.TOTL.KD) ~ 
+                log(NY.GDP.MKTP.KD) |
+                country + year, # fixed effects
+              cluster = c("country"), # cluster
+              data = dat3)
+
+
+summary(reg4)
+
+
+
+```
+]

@@ -1,0 +1,214 @@
+---
+title: "Introduction to Data Science"
+subtitle: "Week 7: Maps (cont'd)"
+author: "Ugur Aytun"
+#date: "`r Sys.Date()`"
+institute: "METU, Department of Economics | ECON 413"
+output:
+  xaringan::moon_reader:
+    chakra: "C:/Users/Lenovo/Documents/GitHub/uguraytun/docs/libs/remark-latest.min.js"
+    css: ["default", "C:/Users/Lenovo/Downloads/ub_theme.css"]
+    includes:
+      after_body: "C:/Users/Lenovo/Downloads/ub_theme.html"
+    self_contained: true
+    nature:
+      highlightStyle: magula
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+
+
+
+---
+# Maps
+
+--
+
+- This week we proceed with the topic of maps.
+
+
+--
+
+- Last week we uploaded our own map of Turkey, which was a shapefile containing the administrative borders of Turkey's provinces.
+
+
+--
+
+- New packages are introduced, such as `rnaturalearth` and `rnaturalearthdata` for geographical data without requiring shapefiles, and `sf` for handling spatial data in R.
+
+
+
+
+---
+# Loading Required Libraries, set the working directory and load the map of the world
+
+.scrollable[
+```{r}
+
+
+
+
+library(sf)
+library("rnaturalearth")
+library("rnaturalearthdata")
+
+
+library("ggplot2")
+library(data.table)
+
+
+world <- ne_countries(scale = "medium", returnclass = "sf")
+class(world)
+
+
+
+
+```
+]
+
+
+
+
+---
+# World map
+
+.scrollable[
+```{r}
+# plot the world map
+ggplot(data = world) + geom_sf()
+
+# plot the world map with a black border
+ggplot(data = world) + geom_sf() + theme_bw()
+
+# plot the world map with a black border and no background
+ggplot(data = world) + geom_sf() + theme_void()
+
+
+# plot the world map with a black border and no background
+ggplot(data = world) + geom_sf() + theme_bw() +
+  labs(title = "World map", 
+       subtitle = paste0(length(unique(world$sov_a3)), " countries"), 
+       x = "Longitude", y = "Latitude")
+
+
+# create titles object
+ctitles <-   labs(title = "World map", 
+                  subtitle = paste0(length(unique(world$sov_a3)), " countries"), 
+                  x = "Longitude", y = "Latitude")
+
+# add a title
+ggplot(data = world) + 
+  geom_sf() + 
+  theme_bw() + ctitles
+
+
+# fill the countries with a color
+ggplot(data = world) + 
+  geom_sf(color = "black", fill = "lightblue") + 
+  theme_bw() + ctitles
+
+
+# add coordinate numbers
+ggplot(data = world) + 
+  geom_sf(color = "black", fill = "lightblue") + 
+  coord_sf(ylim = c(-65, 90), expand = FALSE) +
+  theme_bw() + ctitles
+
+
+```
+]
+
+
+---
+# World and Turkey map
+
+.scrollable[
+```{r}
+
+# color the countries by economic development
+ggplot(data = world) + 
+  geom_sf(aes(fill = economy)) + 
+  coord_sf(ylim = c(-65, 90), expand = FALSE) +
+  theme_bw() + ctitles +
+  scale_fill_viridis_d(option = "plasma")
+
+
+
+# color the countries by population
+ggplot(data = world) + 
+  geom_sf(aes(fill = pop_est)) + 
+  coord_sf(ylim = c(-65, 90), expand = FALSE) +
+  theme_bw() + ctitles +
+  scale_fill_viridis_c(option = "plasma", trans = "sqrt")
+
+
+
+
+
+# color the countries by population (inverse color scale)
+ggplot(data = world) + 
+  geom_sf(aes(fill = pop_est)) + 
+  coord_sf(ylim = c(-65, 90), expand = FALSE) +
+  theme_bw() + ctitles +
+  scale_fill_viridis_c(option = "plasma", trans = "sqrt", direction = -1)
+
+
+
+
+
+# color the countries by population (inverse color scale) with a different projection
+ggplot(data = world) + 
+  geom_sf(aes(fill = pop_est)) + 
+  theme_bw() + ctitles +
+  scale_fill_viridis_c(option = "plasma", trans = "sqrt", direction = -1) +
+  coord_sf(crs = st_crs(3035))
+
+
+
+# Turkey map
+
+turkey <- ne_states(country = "turkey", returnclass = "sf")
+
+class(turkey)
+
+
+
+
+
+ggplot(data = turkey) + 
+  geom_sf() + 
+  theme_void() + 
+  labs(title = "Turkey map")
+
+
+# add province name
+ggplot(data = turkey) + 
+  geom_sf() + 
+  geom_sf_text(aes(latitude, longitude, label = name), size = 2) +
+  theme_void() + 
+  labs(title = "Turkey map")
+
+
+# different color
+ggplot(data = turkey) +
+  geom_sf(color = "black", fill = "red") + 
+  geom_sf_text(aes(latitude, longitude, label = name), size = 2) +
+  theme_void() + 
+  labs(title = "Turkey map")
+
+
+
+
+
+
+```
+
+]

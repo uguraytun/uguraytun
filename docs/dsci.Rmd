@@ -112,3 +112,10 @@ Tools > Global Options > Code > Git > Enable GitHub Copilot.
 - Week 5: [Data Manipulation (Cont'd) and Visualization](dsci/week_5/week_5.html)
 
 - Week 6: [Maps and Data Visualization](dsci/week_6/week_6.html)
+
+- Week 7: [Maps (cont'd)](dsci/week_7/week_7.html)
+
+- Week 8: [Regression analysis](dsci/week_8/week_8.html)
+
+- Week 9: [Causal inference and Regression Analysis with difference-in-differences (DiD)](dsci/week_9/week_9.html)
+
