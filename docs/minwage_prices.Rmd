@@ -15,11 +15,3 @@ What are the supply-side effects of minimum wages? Our paper exploits the quasi-
 [ERF working paper](https://erf.org.eg/publications/firm-level-effects-of-minimum-wages/)
 
 [Presentation slides](https://uguraytun.github.io/uguraytun/TEA_presentation_minwage.pdf)
-
-[Discussion 1](https://uguraytun.github.io/uguraytun/discussion_1.pdf)
-
-
-[Discussion 2](https://uguraytun.github.io/uguraytun/discussion_2.pdf)
-
-[Discussion 3](https://uguraytun.github.io/uguraytun/discussion_3.pdf)
-
