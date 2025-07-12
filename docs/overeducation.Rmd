@@ -6,7 +6,7 @@ output: html_document
 
 
 ## 
-with [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun). Mimeo, 2025. Submitted to [*Economics of Education Review*](https://www.sciencedirect.com/journal/economics-of-education-review).
+with [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun). Mimeo, 2025. Submitted to [*International Journal of Educational Development*](https://www.sciencedirect.com/journal/international-journal-of-educational-development).
 
 The effects of migration on labor market outcomes, such as earnings and employment, have been well-studied in literature. However, there is little attention to how natives adjust their skills to educational requirements of jobs they occupy when they face a massive migration shock. This paper analyzes the effect of Syrian refugee inflows into Turkey beginning in 2011 on the education-job matching of the native population. By using the 2004-2019 household labor force surveys and the regional-level Syrian refugee data, we employ a difference-in-differences methodology that takes account endogenous location choices of refugees as well. We find that a one-point increase in the migrant-to-native ratio significantly reduces the overeducation of the native men in informal employment by 9%. Null effect, on the other hand, is found among native women. However, sub-sample regressions reveal significant negative overeducation effects for native men with low education attainment and aged 18-34. For native women, we also find negative effects in same sub-samples but formal employment. We evidence that our results are mostly driven by employment shifts of natives rather than switching jobs of existing workers.
 
