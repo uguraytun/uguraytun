@@ -60,26 +60,18 @@ Economy](metu_denind.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Persone
 
 ## Work in progress
 
+-- Worker and Firm effects of an Outsourcing Ban with [Eren Gürer](https://sites.google.com/view/erengurer) & [Erol Taymaz](https://users.metu.edu.tr/etaymaz/).
+
+
 -- Firm Level Effects of Custom Union with [Erol Taymaz](https://users.metu.edu.tr/etaymaz/) & [Kamil Yılmaz](https://sites.google.com/view/kamilyilmaz/).
 
 
 -- [Firm-level Gravity with Fixed Effects](fes_firm.html) with [Julian Hinz](https://julianhinz.com/), [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) & [Joschka Wanner](https://www.ifw-kiel.de/experts/joschka-wanner/).
 
 
--- [Firm-level Gravity with Fixed Effects](fes_firm.html) with [Julian Hinz](https://julianhinz.com/), [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) & [Joschka Wanner](https://www.ifw-kiel.de/experts/joschka-wanner/).
-
-
--- Market Power, Firm Productivity, and Worker Efficiency with [Ufuk Akcigit](https://www.ufukakcigit.com/), [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun) and [Furkan Kilic](https://economics.uchicago.edu/directory/Furkan-K%C4%B1l%C4%B1c).
-
-
-
--- Environmental Taxation and Carbon Leakage with [Sinem Ayhan](https://leibniz-ios.de/en/people/details/sinem-ayhan), [Johannes Galle](https://steg.cepr.org/researchers-directory/johannes-galle) and [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun).
-
 
 -- [Even the announcement matters? The effect of CBAM on exports and exporters](cbam.html) -- with [Gunhild Berg](https://blogs.worldbank.org/en/team/g/gunhild-berg),  [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun) & [Etkin Özen](https://blogs.worldbank.org/en/team/e/etkin-ozen)
 
-
--- Minimum Wages and Within-Firm Wage Dispersion with [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun) and [Gonul Sengonul](https://www.ozyegin.edu.tr/en/faculty/gonulsengul).
 
 
 
