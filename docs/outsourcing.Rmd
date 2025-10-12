@@ -1,0 +1,13 @@
+---
+title: "Worker and Firm effects of an Outsourcing Ban"
+output: html_document
+#date: "2024-10-20"
+---
+
+
+
+with [Eren Gürer](https://sites.google.com/view/erengurer) & [Erol Taymaz](https://users.metu.edu.tr/etaymaz/).
+
+This paper examines the economic consequences of ending outsourcing arrangements in public institutions. Exploiting the 2018 ban that required outsourced workers to be absorbed as public employees, we use matched employer–employee data to study the reform's effects on workers and firms. On the worker side, we find that wages of former outsourced workers increased substantially after their transition into direct public employment, though the magnitude of gains differs across gender and occupations—being strongest among low-skill workers. The reform also generated significant wage spillovers: in provinces and occupations with higher concentrations of absorbed workers, non-switcher employees experienced wage increases, with heterogeneous effects by gender and occupation. On the firm side, the ban led to sharp contractions among the subcontracted firms previously supplying labor to public institutions, reflected in elevated exit rates and reductions in employment, particularly within low-skill industries. Together, the findings highlight how prohibiting outsourcing reshapes wage structures, labor market dynamics, and firm survival, illustrating the dual worker–firm consequences of institutional reforms.
+
+[Presentation slides](https://drive.google.com/open?id=1dV1vntszBXAsan-rX0cjMEDg2FKtRb2L&usp=drive_fs)
