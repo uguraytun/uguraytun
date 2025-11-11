@@ -1,0 +1,13 @@
+---
+title: "Trade Liberalization and Firm-Level Prices"
+output: html_document
+#date: "2024-10-20"
+---
+
+
+
+with [Erol Taymaz](https://users.metu.edu.tr/etaymaz/) & [Kamil Yılmaz](https://sites.google.com/view/kamilyilmaz/).
+
+In January 1996, Türkiye eliminated or significantly reduced import tariffs on manufacturing products under the Customs Union Agreement with the EU. Although it was arguably one of the most consequential policy shifts in the country's past fifty years, its impact on firm-level price behavior remains unexplored. In this study, we investigate how firms responded to this important trade liberalization. Merging the product-level data on firms' input use and production with changes in tariff rates, we find that the lower input tariff rates are associated with reduced output prices, while changes in output tariffs have no significant effect. We also observe that lower input tariffs boost firm productivity, measured by real output, value added, and total factor productivity. Interestingly, our results are primarily driven by import-competing industries. These firms are also more likely to survive after the facing the input tariff reductions.
+
+[Presentation slides](https://drive.google.com/file/d/1DXXPnttOeAP3qxO6InxI4khidvw6I1l7/view?usp=sharing)
