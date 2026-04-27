@@ -1,5 +1,5 @@
 ---
-title: "Worker and Firm effects of an Outsourcing Ban"
+title: "Worker- and Firm-Level Effects of an Outsourcing Ban"
 output: html_document
 #date: "2024-10-20"
 ---

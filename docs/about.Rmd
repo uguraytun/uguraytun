@@ -22,7 +22,7 @@ You can visit my [Google Scholar](https://scholar.google.com/citations?user=9pQj
 2021  [Global value chain integration and productivity: the case of Turkish manufacturing firms](gvc.html) -- with [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan)  & [Oytun Meçik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik), [*Middle East Development Journal*](https://www.tandfonline.com/journals/rmdj20), 13, 1, 150-171.
 
 
-2021  [How far the apple falls from the tree: Intergenerational transmission of educational attainment in Indonesia](howfar.html) -- with [Syed Hassan Raza](http://www.qau.edu.pk/profile.php?id=809037), [*International Journal of Educational Development*](https://www.sciencedirect.com/journal/international-journal-of-educational-development), 13, 1, 150-171.
+2021  [How far the apple falls from the tree: Intergenerational transmission of educational attainment in Indonesia](howfar.html) -- with [Syed Hassan Raza](http://www.qau.edu.pk/profile.php?id=809037), [*International Journal of Educational Development*](https://www.sciencedirect.com/journal/international-journal-of-educational-development), 81, 10234.
 
 
 #
@@ -43,7 +43,8 @@ Economy](metu_denind.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Persone
 
 ## Working papers
 
-2026 [Worker and Firm effects of an Outsourcing Ban](outsourcing.html) with [Eren Gürer](https://sites.google.com/view/erengurer) & [Erol Taymaz](https://users.metu.edu.tr/etaymaz/), [*CESifo Working Paper Series*](https://www.ifo.de/en/cesifo/publications/cesifo-working-papers?size=n_10_n).
+2026 [Worker- and Firm-Level Effects of an Outsourcing Ban](outsourcing.html) with [Eren Gürer](https://sites.google.com/view/erengurer) & [Erol Taymaz](https://users.metu.edu.tr/etaymaz/), [*CESifo Working Paper Series*](https://www.ifo.de/en/cesifo/publications/cesifo-working-papers?size=n_10_n).
+
 
 2025 [Firm-level Effects of Minimum Wages](minwage_prices.html) -- with [Yusuf Emre Akgündüz](http://myweb.sabanciuniv.edu/emreakgunduz/), [Seyit Mümin Cılasun](https://avesis.tedu.edu.tr/seyit.cilasun) & [Murat G. Kırdar](https://muratguraykirdar.weebly.com/), [*ERF Working Paper Series*](https://erf.org.eg/publication_cat/working-paper-series/).
 
