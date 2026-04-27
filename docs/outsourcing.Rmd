@@ -6,12 +6,14 @@ output: html_document
 
 
 
-with [Eren Gürer](https://sites.google.com/view/erengurer) & [Erol Taymaz](https://users.metu.edu.tr/etaymaz/), [*METU ERC Working Paper Series*](https://erc.metu.edu.tr/en/working-papers).
+with [Eren Gürer](https://sites.google.com/view/erengurer) & [Erol Taymaz](https://users.metu.edu.tr/etaymaz/), [*CESifo Working Paper Series*](https://www.ifo.de/en/cesifo/publications/cesifo-working-papers?size=n_10_n).
 
 In December 2017, the government of Türkiye announced a comprehensive ban on the procurement of outsourced services by public institutions and mandated that all workers providing such services on-site be transitioned into permanent public positions within six months. We study the labor-market consequences of this abrupt and large-scale policy change using an administrative, linked employer–employee dataset. We find that workers who transitioned into public employment experienced higher wages and improved job security. At the firm level, private service providers with greater exposure to the reform faced higher exit rates and, if they survived, declines in employment, productivity, and profitability. In contrast, municipal-owned enterprises that internalized service provision became more productive and profitable. We also document modest positive wage spillovers in local labor markets. Overall, our results suggest that the outsourcing ban reallocated rents away from private service providers toward workers and public employers.
 
 
-[METU ERC Working Paper](https://erc.metu.edu.tr/sites/erc.metu.edu.tr/files/menu/series26/2602.pdf)
+[CESifo Working Paper](https://www.ifo.de/en/cesifo/publications/2026/working-paper/worker-and-firm-level-effects-outsourcing-ban)
+
+[METU-ERC Working Paper](https://erc.metu.edu.tr/sites/erc.metu.edu.tr/files/menu/series26/2602.pdf)
 
 [Presentation slides](https://drive.google.com/open?id=1dV1vntszBXAsan-rX0cjMEDg2FKtRb2L&usp=drive_fs)
 
