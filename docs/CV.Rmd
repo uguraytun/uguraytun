@@ -108,6 +108,9 @@ Economy](metu_denind.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Persone
 
 ## Working papers
 
+
+2026 [Even the Announcement Matters? The Effect of the Carbon Border Adjustment Mechanism on Exporter Behavior](cbam.html) -- with [Gunhild Berg](https://blogs.worldbank.org/en/team/g/gunhild-berg),  [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun) & [Etkin Özen](https://blogs.worldbank.org/en/team/e/etkin-ozen), [*World Bank Policy Research Working Papers*](https://www.worldbank.org/en/research/brief/world-bank-policy-research-working-papers).
+
 2026 [Worker- and Firm-Level Effects of an Outsourcing Ban](outsourcing.html) with [Eren Gürer](https://sites.google.com/view/erengurer) & [Erol Taymaz](https://users.metu.edu.tr/etaymaz/), [*CESifo Working Paper Series*](https://www.ifo.de/en/cesifo/publications/cesifo-working-papers?size=n_10_n).
 
 
@@ -135,7 +138,7 @@ Economy](metu_denind.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Persone
 
 
 
--- [Even the announcement matters? The effect of CBAM on exports and exporters](cbam.html) -- with [Gunhild Berg](https://blogs.worldbank.org/en/team/g/gunhild-berg),  [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun) & [Etkin Özen](https://blogs.worldbank.org/en/team/e/etkin-ozen)
+
 
 
 -- Environmental taxation and Carbon Leakage -- with [Sinem Ayhan](https://www.iza.org/person/8759/sinem-h-ayhan),  [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun) & [Johannes Galle](https://ipc.sabanciuniv.edu/en/johannes-galle-a4ec02)
