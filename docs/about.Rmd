@@ -45,7 +45,7 @@ Economy](metu_denind.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Persone
 
 2026 [Even the Announcement Matters? The Effect of the Carbon Border Adjustment Mechanism on Exporter Behavior](cbam.html) -- with [Gunhild Berg](https://blogs.worldbank.org/en/team/g/gunhild-berg),  [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun) & [Etkin Özen](https://blogs.worldbank.org/en/team/e/etkin-ozen), [*World Bank Policy Research Working Papers*](https://www.worldbank.org/en/research/brief/world-bank-policy-research-working-papers).
 
-2026 [Worker- and Firm-Level Effects of an Outsourcing Ban](outsourcing.html) with [Eren Gürer](https://sites.google.com/view/erengurer) & [Erol Taymaz](https://users.metu.edu.tr/etaymaz/), [*CESifo Working Paper Series*](https://www.ifo.de/en/cesifo/publications/cesifo-working-papers?size=n_10_n).
+2026 [Worker- and Firm-Level Effects of an Outsourcing Ban](outsourcing.html) with [Eren Gürer](https://sites.google.com/view/erengurer) & [Erol Taymaz](https://users.metu.edu.tr/etaymaz/), [*CESifo Working Paper Series*](https://www.ifo.de/en/cesifo/publications/cesifo-working-papers?size=n_10_n). Revise and Resubmit at [*Journal of Development Economics*](https://www.sciencedirect.com/journal/journal-of-development-economics).
 
 
 2025 [Firm-level Effects of Minimum Wages](minwage_prices.html) -- with [Yusuf Emre Akgündüz](http://myweb.sabanciuniv.edu/emreakgunduz/), [Seyit Mümin Cılasun](https://avesis.tedu.edu.tr/seyit.cilasun) & [Murat G. Kırdar](https://muratguraykirdar.weebly.com/), [*ERF Working Paper Series*](https://erf.org.eg/publication_cat/working-paper-series/).
@@ -53,7 +53,7 @@ Economy](metu_denind.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Persone
 
 2024  [The Impact of Minimum Wage Shock on Robot Adaption in Turkey](minwage_robot.html) -- with [Yusuf Emre Akgündüz](http://myweb.sabanciuniv.edu/emreakgunduz/) & [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun), [*ERF Working Paper Series*](https://erf.org.eg/publication_cat/working-paper-series/).
 
-2023  [The Impact of Syrian Refugees on the Overeducation of Natives: Evidence from Turkish Labor Markets](overeducation.html) -- [*ERF Working Paper Series*](https://erf.org.eg/publication_cat/working-paper-series/).
+2023  [The Impact of Syrian Refugees on the Overeducation of Natives: Evidence from Turkish Labor Markets](overeducation.html) -- [*ERF Working Paper Series*](https://erf.org.eg/publication_cat/working-paper-series/). Revise and Resubmit at [*The Journal of Development Studies*](https://www.tandfonline.com/journals/fjds20).
 
 
 #
