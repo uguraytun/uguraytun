@@ -26,6 +26,7 @@ This course aims to introduce students to the modern data science toolkit. It co
 
 **Course objectives**
 
+
 Students will learn how to use R for economic analysis and the basic tools of data science. By using R and RStudio, students will be able to import, clean, manipulate, visualize, report, present, and analyze data. They will also learn how to write reports and create presentations using R Markdown.
 
 
