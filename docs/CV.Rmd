@@ -21,13 +21,13 @@ output: html_document
 
 ## Education
 
-2010-2017 Ph.D, Economics, [Anadolu University](https://anadolu.edu.tr/en) (Advisor: [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan))
+2010-2017 Ph.D, Economics, Anadolu University (Advisor: [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan))
 
 \ \ \ \ \ \ \ Thesis title: *Competitiveness and Complexity in the Manufacturing Industries:* 
 
 \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  *A Cross-country Analysis* (in Turkish)
 
-2004-2008 B.Sc, Economics, [Anadolu University](https://anadolu.edu.tr/en)
+2004-2008 B.Sc, Economics, Anadolu University
 
 
 #
@@ -40,7 +40,7 @@ output: html_document
 
 
 ## Experience
-2024-2025 Short-term consultant, [World Bank](https://www.worldbank.org/ext/en/home)
+2024-2025 Short-term consultant, World Bank](https://www.worldbank.org/ext/en/home)
 
 2024-2025 Postdoctoral Researcher, [Department of Economics](https://econ.metu.edu.tr/en), [METU](https://www.metu.edu.tr/), (Advisor: [Erol Taymaz](https://users.metu.edu.tr/etaymaz/) & [Kamil Yılmaz](https://sites.google.com/view/kamilyilmaz/))
 
@@ -78,15 +78,15 @@ output: html_document
 #
 
 ## Journal articles
-2025  [Shooting down trade: Firm-level effects of embargoes](sdown.html) -- with [Julian Hinz](https://julianhinz.com/) & [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home), [*Journal of Economic Behavior and Organization*](https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization), 231, 108621.
+2025  [Shooting down trade: Firm-level effects of embargoes](sdown.html) -- with [Julian Hinz](https://julianhinz.com/) & [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home), *Journal of Economic Behavior and Organization*, 231, 108621.
 
-2023  [Wage Returns to Field of Study-Occupation Mismatch in Turkish Graduate Labor Market: Quantile Regression Approach](hmismatch.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik), [*Ege Academic Review*](https://dergipark.org.tr/en/pub/eab), 23, 4, 653-666.
-
-
-2021  [Global value chain integration and productivity: the case of Turkish manufacturing firms](gvc.html) -- with [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan)  & [Oytun Meçik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik), [*Middle East Development Journal*](https://www.tandfonline.com/journals/rmdj20), 13, 1, 150-171.
+2023  [Wage Returns to Field of Study-Occupation Mismatch in Turkish Graduate Labor Market: Quantile Regression Approach](hmismatch.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik), *Ege Academic Review*, 23, 4, 653-666.
 
 
-2021  [How far the apple falls from the tree: Intergenerational transmission of educational attainment in Indonesia](howfar.html) -- with [Syed Hassan Raza](http://www.qau.edu.pk/profile.php?id=809037), [*International Journal of Educational Development*](https://www.sciencedirect.com/journal/international-journal-of-educational-development), 81, 10234.
+2021  [Global value chain integration and productivity: the case of Turkish manufacturing firms](gvc.html) -- with [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan)  & [Oytun Meçik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik), *Middle East Development Journal*, 13, 1, 150-171.
+
+
+2021  [How far the apple falls from the tree: Intergenerational transmission of educational attainment in Indonesia](howfar.html) -- with [Syed Hassan Raza](http://www.qau.edu.pk/profile.php?id=809037), *International Journal of Educational Development*, 81, 10234.
 
 
 #
@@ -94,12 +94,12 @@ output: html_document
 
 #### In Turkish:
 2025  [Exchange rate elasticity of exports and firm heterogeneity: Evidence from Turkish manufacturing firms](122R003.html) -- with [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan), [Oytun Meçik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik) & [Ünal Töngür](https://avesis.akdeniz.edu.tr/unaltongur/).
-forthcoming in [*METU Studies in Development*](http://www2.feas.metu.edu.tr/metusd/ojs/index.php/metusd/index).
+forthcoming in *METU Studies in Development*.
 
-2018  [Industry Level Competitiveness and Adaptation to World Demand: An Analysis on Turkey and Selected Countries](esogu_demand.html) -- with [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan), [*Eskişehir Osmangazi Üniversitesi İİBF Dergisi*](https://dergipark.org.tr/tr/pub/oguiibf), 13, 1, 143-166.
+2018  [Industry Level Competitiveness and Adaptation to World Demand: An Analysis on Turkey and Selected Countries](esogu_demand.html) -- with [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan), *Eskişehir Osmangazi Üniversitesi İİBF Dergisi*, 13, 1, 143-166.
 
 2018  [A Regional Approach to the Premature Deindustrialization in the Turkish
-Economy](metu_denind.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik), [*METU Studies in Development*](http://www2.feas.metu.edu.tr/metusd/ojs/index.php/metusd/index), 45, 1, 59-81.
+Economy](metu_denind.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik), *METU Studies in Development*, 45, 1, 59-81.
 
 
 #
@@ -109,20 +109,20 @@ Economy](metu_denind.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Persone
 ## Working papers
 
 
-2026 [Even the Announcement Matters? The Effect of the Carbon Border Adjustment Mechanism on Exporter Behavior](cbam.html) -- with [Gunhild Berg](https://blogs.worldbank.org/en/team/g/gunhild-berg),  [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun) & [Etkin Özen](https://blogs.worldbank.org/en/team/e/etkin-ozen), [*World Bank Policy Research Working Papers*](https://www.worldbank.org/en/research/brief/world-bank-policy-research-working-papers).
+2026 [Even the Announcement Matters? The Effect of the Carbon Border Adjustment Mechanism on Exporter Behavior](cbam.html) -- with [Gunhild Berg](https://blogs.worldbank.org/en/team/g/gunhild-berg),  [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun) & [Etkin Özen](https://blogs.worldbank.org/en/team/e/etkin-ozen), *World Bank Policy Research Working Papers*.
 
-2026 [Worker- and Firm-Level Effects of an Outsourcing Ban](outsourcing.html) with [Eren Gürer](https://sites.google.com/view/erengurer) & [Erol Taymaz](https://users.metu.edu.tr/etaymaz/), [*CESifo Working Paper Series*](https://www.ifo.de/en/cesifo/publications/cesifo-working-papers?size=n_10_n).
-
-
-2025 [Firm-level Effects of Minimum Wages](minwage_prices.html) -- with [Yusuf Emre Akgündüz](http://myweb.sabanciuniv.edu/emreakgunduz/), [Seyit Mümin Cılasun](https://avesis.tedu.edu.tr/seyit.cilasun) & [Murat G. Kırdar](https://muratguraykirdar.weebly.com/), [*ERF Working Paper Series*](https://erf.org.eg/publication_cat/working-paper-series/).
+2026 [Worker- and Firm-Level Effects of an Outsourcing Ban](outsourcing.html) with [Eren Gürer](https://sites.google.com/view/erengurer) & [Erol Taymaz](https://users.metu.edu.tr/etaymaz/), *CESifo Working Paper Series*.
 
 
-2024  [The Impact of Minimum Wage Shock on Robot Adaption in Turkey](minwage_robot.html) -- with [Yusuf Emre Akgündüz](http://myweb.sabanciuniv.edu/emreakgunduz/) & [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun), [*ERF Working Paper Series*](https://erf.org.eg/publication_cat/working-paper-series/).
-
-2023  [Robots, Employment and Wages: Evidence from Turkish Labor Markets](robot_121G176.html) -- with [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan), [Oytun Mecik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik) & [Ümit Yapıcı](https://unis.ahievran.edu.tr/akademisyen/umityapici), [*ERF Working Paper Series*](https://erf.org.eg/publication_cat/working-paper-series/).
+2025 [Firm-level Effects of Minimum Wages](minwage_prices.html) -- with [Yusuf Emre Akgündüz](http://myweb.sabanciuniv.edu/emreakgunduz/), [Seyit Mümin Cılasun](https://avesis.tedu.edu.tr/seyit.cilasun) & [Murat G. Kırdar](https://muratguraykirdar.weebly.com/), *ERF Working Paper Series*.
 
 
-2023  [The Impact of Syrian Refugees on the Overeducation of Natives: Evidence from Turkish Labor Markets](overeducation.html) -- with [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun), [*ERF Working Paper Series*](https://erf.org.eg/publication_cat/working-paper-series/).
+2024  [The Impact of Minimum Wage Shock on Robot Adaption in Turkey](minwage_robot.html) -- with [Yusuf Emre Akgündüz](http://myweb.sabanciuniv.edu/emreakgunduz/) & [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun), *ERF Working Paper Series*.
+
+2023  [Robots, Employment and Wages: Evidence from Turkish Labor Markets](robot_121G176.html) -- with [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan), [Oytun Mecik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik) & [Ümit Yapıcı](https://unis.ahievran.edu.tr/akademisyen/umityapici), *ERF Working Paper Series*.
+
+
+2023  [The Impact of Syrian Refugees on the Overeducation of Natives: Evidence from Turkish Labor Markets](overeducation.html) -- with [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun), *ERF Working Paper Series*.
 
 #
 #
