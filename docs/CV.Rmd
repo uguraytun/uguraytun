@@ -40,7 +40,7 @@ output: html_document
 
 
 ## Experience
-2024-2025 Short-term consultant, World Bank](https://www.worldbank.org/ext/en/home)
+2024-2026 Short-term consultant, World Bank
 
 2024-2025 Postdoctoral Researcher, [Department of Economics](https://econ.metu.edu.tr/en), [METU](https://www.metu.edu.tr/), (Advisor: [Erol Taymaz](https://users.metu.edu.tr/etaymaz/) & [Kamil Yılmaz](https://sites.google.com/view/kamilyilmaz/))
 
@@ -111,7 +111,7 @@ Economy](metu_denind.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Persone
 
 2026 [Even the Announcement Matters? The Effect of the Carbon Border Adjustment Mechanism on Exporter Behavior](cbam.html) -- with [Gunhild Berg](https://blogs.worldbank.org/en/team/g/gunhild-berg),  [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun) & [Etkin Özen](https://blogs.worldbank.org/en/team/e/etkin-ozen), *World Bank Policy Research Working Papers*.
 
-2026 [Worker- and Firm-Level Effects of an Outsourcing Ban](outsourcing.html) with [Eren Gürer](https://sites.google.com/view/erengurer) & [Erol Taymaz](https://users.metu.edu.tr/etaymaz/), *CESifo Working Paper Series*.
+2026 [Worker- and Firm-Level Effects of an Outsourcing Ban](outsourcing.html) with [Eren Gürer](https://sites.google.com/view/erengurer) & [Erol Taymaz](https://users.metu.edu.tr/etaymaz/), *CESifo Working Paper Series*. Revise and Resubmit at *Journal of Development Economics*.
 
 
 2025 [Firm-level Effects of Minimum Wages](minwage_prices.html) -- with [Yusuf Emre Akgündüz](http://myweb.sabanciuniv.edu/emreakgunduz/), [Seyit Mümin Cılasun](https://avesis.tedu.edu.tr/seyit.cilasun) & [Murat G. Kırdar](https://muratguraykirdar.weebly.com/), *ERF Working Paper Series*.
@@ -122,7 +122,7 @@ Economy](metu_denind.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Persone
 2023  [Robots, Employment and Wages: Evidence from Turkish Labor Markets](robot_121G176.html) -- with [Yılmaz Kılıçaslan](https://avesis.anadolu.edu.tr/ykilicaslan), [Oytun Mecik](https://iibf.ogu.edu.tr/Personel/Detay/14/doc-dr-oytun-mecik) & [Ümit Yapıcı](https://unis.ahievran.edu.tr/akademisyen/umityapici), *ERF Working Paper Series*.
 
 
-2023  [The Impact of Syrian Refugees on the Overeducation of Natives: Evidence from Turkish Labor Markets](overeducation.html) -- with [Seyit Mümin Cilasun](https://avesis.tedu.edu.tr/seyit.cilasun), *ERF Working Paper Series*.
+2023  [The Impact of Syrian Refugees on the Overeducation of Natives: Evidence from Turkish Labor Markets](overeducation.html) -- *ERF Working Paper Series*. Conditionally accepted at *The Journal of Development Studies*.
 
 #
 #
