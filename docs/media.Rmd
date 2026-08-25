@@ -9,6 +9,8 @@ output: html_document
 
 
 ## 
+[Taşeron çalışma ve ücretler: Taşeron çalışmanın iki yüzü](https://sarkac.org/2026/08/taseron-calisma-ve-ucretler-taseron-calismanin-iki-yuzu/), with [Eren Gürer](https://sites.google.com/view/erengurer) and [Erol Taymaz](https://users.metu.edu.tr/etaymaz/index.html) in [Sarkaç blog](https://sarkac.org/) (in Turkish).
+
 [Shooting down trade: Firm-level effects of embargoes](https://cepr.org/voxeu/columns/shooting-down-trade-firm-level-effects-embargoes), with [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) and [Julian Hinz](https://julianhinz.com/) in [VoxEU](https://cepr.org/voxeu).
 
 [Türkiye’nin evden çalışması mümkün mü?](https://sarkac.org/2020/04/turkiyenin-evden-calismasi-mumkun-mu/), with [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) in [Sarkaç blog](https://sarkac.org/) (in Turkish).
