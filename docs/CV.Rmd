@@ -42,15 +42,15 @@ output: html_document
 ## Experience
 2024-2026 Short-term consultant, World Bank
 
-2024-2027 Postdoctoral Researcher, [Department of Economics](https://econ.metu.edu.tr/en), [METU](https://www.metu.edu.tr/), (Advisor: [Erol Taymaz](https://users.metu.edu.tr/etaymaz/) & [Kamil Yılmaz](https://sites.google.com/view/kamilyilmaz/))
+2024-2027 Postdoctoral Researcher, Department of Economics, Middle East Technical University, (Advisor: [Erol Taymaz](https://users.metu.edu.tr/etaymaz/) & [Kamil Yılmaz](https://sites.google.com/view/kamilyilmaz/))
 
-2020- Assistant Professor, Department of Economics, [Dumlupınar University](https://dpu.edu.tr/en)
+2020- Assistant Professor, Department of Economics, Dumlupınar University
 
-2010-17 Department of Economics, [Anadolu University](https://anadolu.edu.tr/en)
+2010-17 Department of Economics, Anadolu University
 
-2016-2017 Project Trainee, [CEPII](http://www.cepii.fr/CEPII/en/welcome.asp)
+2016-2017 Project Trainee, CEPII
 
-2014 Visiting Researcher, [Department of Economics](https://www.csusb.edu/economics), [California State University, San Bernardino](https://www.csusb.edu/)
+2014 Visiting Researcher, Department of Economics, California State University, San Bernardino
 
 #
 #
@@ -60,15 +60,15 @@ output: html_document
 #
 
 ## Awards & honors
-2025 Best Paper Award by [Economic Research Forum (ERF)](https://erf.org.eg)
+2025 Best Paper Award by Economic Research Forum (ERF)
 
 2022-2024 TUBITAK Project Grant, *Robots, Employment and wages* (Project Number: 121G176, Role: PI)
 
 2022-2024 TUBITAK Project Grant, *Elasticity of Turkish Export Outcomes to the Exchange Rates: Product and Firm Level Analysis* (Project Number: 122R003, Role: PI)
 
-2021 [Ibn Khaldun Best Paper](https://meeaweb.org/ibn-khaldun-winners) Award by [Middle East Economic Association (MEEA)](https://meeaweb.org/)
+2021 [Ibn Khaldun Best Paper](https://meeaweb.org/ibn-khaldun-winners) Award by Middle East Economic Association (MEEA)
 
-2008 High Honor Student at the [Anadolu University](https://anadolu.edu.tr/en)
+2008 High Honor Student at the Anadolu University
 
 #
 #
@@ -151,7 +151,7 @@ Economy](metu_denind.html) -- with [Oytun Mecik](https://iibf.ogu.edu.tr/Persone
 
 ## Referee
 
-[*European Economic Review*](https://www.sciencedirect.com/journal/european-economic-review), [*Review of World Economics*](https://link.springer.com/journal/10290), [*International Economics*](https://www.sciencedirect.com/journal/international-economics), [*International Migration*](https://onlinelibrary.wiley.com/journal/14682435), [*Applied Economics*](https://www.tandfonline.com/journals/raec20), [*The European Journal on Criminal Policy and Research*](https://link.springer.com/journal/10610), 
+[*European Economic Review*](https://www.sciencedirect.com/journal/european-economic-review), [*Review of World Economics*](https://link.springer.com/journal/10290), [*International Economics*](https://www.sciencedirect.com/journal/international-economics), [*International Migration*](https://onlinelibrary.wiley.com/journal/14682435), [*Applied Economics*](https://www.tandfonline.com/journals/raec20), [*The European Journal on Criminal Policy and Research*](https://link.springer.com/journal/10610). 
 
 #
 #

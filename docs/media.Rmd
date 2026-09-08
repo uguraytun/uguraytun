@@ -9,16 +9,19 @@ output: html_document
 
 
 ## 
-[Taşeron çalışma ve ücretler: Taşeron çalışmanın iki yüzü](https://sarkac.org/2026/08/taseron-calisma-ve-ucretler-taseron-calismanin-iki-yuzu/), with [Eren Gürer](https://sites.google.com/view/erengurer) and [Erol Taymaz](https://users.metu.edu.tr/etaymaz/index.html) in [Sarkaç blog](https://sarkac.org/) (in Turkish).
 
-[Shooting down trade: Firm-level effects of embargoes](https://cepr.org/voxeu/columns/shooting-down-trade-firm-level-effects-embargoes), with [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) and [Julian Hinz](https://julianhinz.com/) in [VoxEU](https://cepr.org/voxeu).
+[Taşeron çalışma: Türkiye deneyiminden dersler (II)](https://sarkac.org/?p=26526&preview=1&_ppp=58ddeb0cff), with [Eren Gürer](https://sites.google.com/view/erengurer) and [Erol Taymaz](https://users.metu.edu.tr/etaymaz/index.html) in Sarkaç blog (in Turkish).
 
-[Türkiye’nin evden çalışması mümkün mü?](https://sarkac.org/2020/04/turkiyenin-evden-calismasi-mumkun-mu/), with [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) in [Sarkaç blog](https://sarkac.org/) (in Turkish).
+[Taşeron çalışma ve ücretler: Taşeron çalışmanın iki yüzü](https://sarkac.org/2026/08/taseron-calisma-ve-ucretler-taseron-calismanin-iki-yuzu/), with [Eren Gürer](https://sites.google.com/view/erengurer) and [Erol Taymaz](https://users.metu.edu.tr/etaymaz/index.html) in Sarkaç blog (in Turkish).
 
-[Türkiye’de kimlerin evden çalışması mümkün?](https://www.birgun.net/haber/turkiye-de-kimlerin-evden-calismasi-mumkun-296722), with [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) in [BirGün newspaper](https://www.birgun.net/) (in Turkish).
+[Shooting down trade: Firm-level effects of embargoes](https://cepr.org/voxeu/columns/shooting-down-trade-firm-level-effects-embargoes), with [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) and [Julian Hinz](https://julianhinz.com/) in VoxEU.
+
+[Türkiye’nin evden çalışması mümkün mü?](https://sarkac.org/2020/04/turkiyenin-evden-calismasi-mumkun-mu/), with [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) in Sarkaç blog (in Turkish).
+
+[Türkiye’de kimlerin evden çalışması mümkün?](https://www.birgun.net/haber/turkiye-de-kimlerin-evden-calismasi-mumkun-296722), with [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) in BirGün newspaper (in Turkish).
 
 
-[Koronavirus salgını eşitsizlikleri arttırabilir](https://sarkac.org/2020/04/koronavirus-salgini-esitsizlikleri-arttirabilir/), with [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) in [Sarkaç blog](https://sarkac.org/) (in Turkish).
+[Koronavirus salgını eşitsizlikleri arttırabilir](https://sarkac.org/2020/04/koronavirus-salgini-esitsizlikleri-arttirabilir/), with [Cem Özgüzel](https://sites.google.com/view/cemozguzel/home) in Sarkaç blog (in Turkish).
 
 
 
