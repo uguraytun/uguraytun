@@ -7,9 +7,9 @@ institute: "METU, Department of Economics | ECON 413"
 output:
   xaringan::moon_reader:
     chakra: "C:/Users/Lenovo/Documents/GitHub/uguraytun/docs/libs/remark-latest.min.js"
-    css: ["default", "C:/Users/Lenovo/Downloads/ub_theme.css"]
+    css: "C:/Users/Lenovo/Documents/ub_theme.css"
     includes:
-      after_body: "C:/Users/Lenovo/Downloads/ub_theme.html"
+      after_body: "C:/Users/Lenovo/Documents/ub_theme.html"
     self_contained: true
     nature:
       highlightStyle: magula
