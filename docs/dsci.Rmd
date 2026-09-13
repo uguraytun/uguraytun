@@ -120,3 +120,14 @@ Tools > Global Options > Code > Git > Enable GitHub Copilot.
 
 - Week 9: [Causal inference and Regression Analysis with difference-in-differences (DiD)](dsci/week_9/week_9.html)
 
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-117RN0RJWP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-117RN0RJWP');
+</script>

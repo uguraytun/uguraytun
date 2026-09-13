@@ -1,15 +1,3 @@
----
-title: "Courses"
-output: html_document
-#date: "2024-10-20"
----
-
-##
-  
-  [Introduction to Data Science](dsci.html)
-  
-
-
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-117RN0RJWP"></script>
 <script>

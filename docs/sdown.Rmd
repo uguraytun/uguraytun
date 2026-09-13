@@ -19,3 +19,13 @@ In November 2015, Turkey unexpectedly downed a Russian military jet in Syria. Ru
 [Online appendix](https://uguraytun.github.io/uguraytun/shooting_down_trade_online_app.pdf)
 
 [Presentation slides](https://julianhinz.com/research/shooting_down_trade/shooting_down_trade-slides.pdf)
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-117RN0RJWP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-117RN0RJWP');
+</script>

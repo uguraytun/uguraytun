@@ -14,5 +14,12 @@ This paper studies how firms respond to the announcement of the European Unionâ€
 [Presentation slides](https://uguraytun.github.io/uguraytun/CBAM_metu.pdf)
 
 
-
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-117RN0RJWP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-117RN0RJWP');
+</script>
 

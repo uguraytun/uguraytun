@@ -12,3 +12,11 @@ In this paper we estimate the income effects of horizontal mismatch and its inte
 
 [Link to the paper](https://dergipark.org.tr/en/pub/eab/issue/80426/1164097)
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-117RN0RJWP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-117RN0RJWP');
+</script>
