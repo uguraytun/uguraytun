@@ -40,9 +40,11 @@ output: html_document
 
 
 ## Experience
+2026 Short-term consultant, World Intellectual Property Organization (WIPO)
+
 2024-2026 Short-term consultant, World Bank
 
-2024-2027 Postdoctoral Researcher, Department of Economics, Middle East Technical University, (Advisor: [Erol Taymaz](https://users.metu.edu.tr/etaymaz/) & [Kamil Yılmaz](https://sites.google.com/view/kamilyilmaz/))
+2024-2027 Postdoctoral Researcher, Department of Economics, Middle East Technical University, (Advisor: [Erol Taymaz](https://users.metu.edu.tr/etaymaz/))
 
 2020- Assistant Professor, Department of Economics, Dumlupınar University
 
