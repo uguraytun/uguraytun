@@ -714,18 +714,7 @@ class: center, middle, inverse, title-slide
 
 #library(&#39;R.utils&#39;)
 library(data.table)
-```
-
-```
-## Warning: package &#39;data.table&#39; was built under R version 4.3.3
-```
-
-``` r
 library(sf)
-```
-
-```
-## Warning: package &#39;sf&#39; was built under R version 4.3.3
 ```
 
 ```
@@ -735,19 +724,8 @@ library(sf)
 ``` r
 library(ggplot2)
 library(maps)
-```
-
-```
-## Warning: package &#39;maps&#39; was built under R version 4.3.3
-```
-
-``` r
 library(scales)  # for squish
 library(dplyr)
-```
-
-```
-## Warning: package &#39;dplyr&#39; was built under R version 4.3.3
 ```
 
 ```
@@ -780,10 +758,6 @@ setwd(&quot;H:/My Drive/ECON413&quot;)
 # install.packages(&quot;fixest&quot;)
 
 library(fixest)
-```
-
-```
-## Warning: package &#39;fixest&#39; was built under R version 4.3.3
 ```
 
 ```
@@ -913,13 +887,7 @@ summary(reg1) # summary of the regression
 
 ``` r
 library(WDI)
-```
 
-```
-## Warning: package &#39;WDI&#39; was built under R version 4.3.3
-```
-
-``` r
 series &lt;-  WDI_data$series
 countries &lt;-  WDI_data$country
 
@@ -928,7 +896,12 @@ countries &lt;-  WDI_data$country
 
 dat2 &lt;- WDI(indicator = c(&quot;NY.GDP.MKTP.KD.ZG&quot;, # GDP growth
                          &quot;NV.IND.MANF.KD.ZG&quot;), # manufacturing growth
-           country = c(&quot;all&quot;), start = 1960, end = 2025)
+           country = c(&quot;all&quot;), start = 1960, end = 2025,
+           extra = TRUE) # adds region, income level etc.
+
+# &quot;all&quot; also returns aggregates (World, Euro area, income groups...).
+# Keep only individual countries, otherwise they are counted twice.
+dat2 &lt;- dat2[dat2$region != &quot;Aggregates&quot; &amp; !is.na(dat2$region), ]
 
 
 # without fixed effects
@@ -939,7 +912,7 @@ reg1 &lt;- feols(NY.GDP.MKTP.KD.ZG ~  # gdp growth
 ```
 
 ```
-## NOTE: 8,595 observations removed because of NA values (LHS: 3,167, RHS: 8,584).
+## NOTE: 6,611 observations removed because of NA values (LHS: 2,845, RHS: 6,605).
 ```
 
 ``` r
@@ -948,14 +921,14 @@ summary(reg1)
 
 ```
 ## OLS estimation, Dep. Var.: NY.GDP.MKTP.KD.ZG
-## Observations: 8,895
+## Observations: 7,381
 ## Standard-errors: Clustered (country) 
 ##                   Estimate Std. Error  t value  Pr(&gt;|t|)    
-## (Intercept)       3.190521   0.146592 21.76471 &lt; 2.2e-16 ***
-## NV.IND.MANF.KD.ZG 0.096448   0.030017  3.21316 0.0015052 ** 
+## (Intercept)       3.220100   0.157288 20.47269 &lt; 2.2e-16 ***
+## NV.IND.MANF.KD.ZG 0.092666   0.029239  3.16930  0.001784 ** 
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
-## RMSE: 5.03185   Adj. R2: 0.091072
+## RMSE: 5.4051   Adj. R2: 0.086297
 ```
 
 ``` r
@@ -967,7 +940,7 @@ reg2 &lt;- feols(NY.GDP.MKTP.KD.ZG ~
 ```
 
 ```
-## NOTE: 8,595 observations removed because of NA values (LHS: 3,167, RHS: 8,584).
+## NOTE: 6,611 observations removed because of NA values (LHS: 2,845, RHS: 6,605).
 ```
 
 ``` r
@@ -976,15 +949,15 @@ summary(reg2)
 
 ```
 ## OLS estimation, Dep. Var.: NY.GDP.MKTP.KD.ZG
-## Observations: 8,895
-## Fixed-effects: country: 226,  year: 65
+## Observations: 7,381
+## Fixed-effects: country: 189,  year: 65
 ## Standard-errors: Clustered (country) 
-##                   Estimate Std. Error t value Pr(&gt;|t|)    
-## NV.IND.MANF.KD.ZG 0.078221   0.024459   3.198 0.001583 ** 
+##                   Estimate Std. Error t value  Pr(&gt;|t|)    
+## NV.IND.MANF.KD.ZG 0.076703   0.024262  3.1614 0.0018306 ** 
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
-## RMSE: 4.53466     Adj. R2: 0.237024
-##                 Within R2: 0.069866
+## RMSE: 4.90557     Adj. R2: 0.220767
+##                 Within R2: 0.068017
 ```
 
 ``` r
@@ -995,16 +968,16 @@ etable(reg1, reg2)
 ##                                reg1              reg2
 ## Dependent Var.:   NY.GDP.MKTP.KD.ZG NY.GDP.MKTP.KD.ZG
 ##                                                      
-## Constant          3.191*** (0.1466)                  
-## NV.IND.MANF.KD.ZG 0.0964** (0.0300) 0.0782** (0.0245)
+## Constant          3.220*** (0.1573)                  
+## NV.IND.MANF.KD.ZG 0.0927** (0.0292) 0.0767** (0.0243)
 ## Fixed-Effects:    ----------------- -----------------
 ## country                          No               Yes
 ## year                             No               Yes
 ## _________________ _________________ _________________
 ## S.E.: Clustered         by: country       by: country
-## Observations                  8,895             8,895
-## R2                          0.09117           0.26190
-## Within R2                        --           0.06987
+## Observations                  7,381             7,381
+## R2                          0.08642           0.24748
+## Within R2                        --           0.06802
 ## ---
 ## Signif. codes: 0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
 ```
@@ -1016,7 +989,7 @@ etable(reg1, reg2)
 
 
 ---
-# Marginal propenity to consumption (MPC) and the consumption function
+# Marginal propensity to consume (MPC) vs. income elasticity
 .scrollable[
 
 ``` r
@@ -1040,18 +1013,33 @@ gdp_datasets &lt;- WDIsearch(string = &quot;gdp&quot;,
 
 dat3 &lt;- WDI(indicator = c(&quot;NE.CON.TOTL.KD&quot;, # Final consumption expenditure (constant 2015 US$)
                           &quot;NY.GDP.MKTP.KD&quot;), # GDP
-           country = c(&quot;all&quot;), start = 1960, end = 2025)
+           country = c(&quot;all&quot;), start = 1960, end = 2025,
+           extra = TRUE)
+```
+
+```
+## Warning in open.connection(con, &quot;rb&quot;): URL
+## &#39;https://api.worldbank.org/v2/en/country/all/indicator/NE.CON.TOTL.KD?format=json&amp;date=1960:2025&amp;per_page=32500&amp;page=6&#39;:
+## Timeout of 60 seconds was reached
+```
+
+``` r
+# drop aggregates (World, regions, income groups)
+dat3 &lt;- dat3[dat3$region != &quot;Aggregates&quot; &amp; !is.na(dat3$region), ]
 
 
-reg4 &lt;- feols(log(NE.CON.TOTL.KD) ~ 
-                log(NY.GDP.MKTP.KD) |
+# 1) MPC: regression in levels. The coefficient is dC/dY,
+#    i.e. how many dollars of consumption one extra dollar of GDP brings.
+
+reg4 &lt;- feols(NE.CON.TOTL.KD ~
+                NY.GDP.MKTP.KD |
                 country + year, # fixed effects
               cluster = c(&quot;country&quot;), # cluster
               data = dat3)
 ```
 
 ```
-## NOTE: 8,391 observations removed because of NA values (LHS: 8,385, RHS: 2,995).
+## NOTE: 6,822 observations removed because of NA values (LHS: 6,816, RHS: 2,725).
 ```
 
 ``` r
@@ -1059,16 +1047,72 @@ summary(reg4)
 ```
 
 ```
-## OLS estimation, Dep. Var.: log(NE.CON.TOTL.KD)
-## Observations: 9,099
-## Fixed-effects: country: 222,  year: 66
+## OLS estimation, Dep. Var.: NE.CON.TOTL.KD
+## Observations: 7,170
+## Fixed-effects: country: 175,  year: 66
 ## Standard-errors: Clustered (country) 
-##                     Estimate Std. Error t value  Pr(&gt;|t|)    
-## log(NY.GDP.MKTP.KD) 0.842339   0.042116 20.0003 &lt; 2.2e-16 ***
+##                Estimate Std. Error t value   Pr(&gt;|t|)    
+## NY.GDP.MKTP.KD 0.709373   0.081983 8.65264 3.2716e-15 ***
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
-## RMSE: 0.180883     Adj. R2: 0.995384
-##                  Within R2: 0.54509
+## RMSE: 7.894e+10     Adj. R2: 0.994762
+##                   Within R2: 0.96623
+```
+
+``` r
+# 2) Log-log regression: the coefficient is NOT the MPC.
+#    It is the income ELASTICITY of consumption:
+#    a 1% increase in GDP is associated with a beta% increase in consumption.
+#    (MPC = elasticity x C/Y)
+
+reg5 &lt;- feols(log(NE.CON.TOTL.KD) ~
+                log(NY.GDP.MKTP.KD) |
+                country + year, # fixed effects
+              cluster = c(&quot;country&quot;), # cluster
+              data = dat3)
+```
+
+```
+## NOTE: 6,822 observations removed because of NA values (LHS: 6,816, RHS: 2,725).
+```
+
+``` r
+summary(reg5)
+```
+
+```
+## OLS estimation, Dep. Var.: log(NE.CON.TOTL.KD)
+## Observations: 7,170
+## Fixed-effects: country: 175,  year: 66
+## Standard-errors: Clustered (country) 
+##                     Estimate Std. Error t value  Pr(&gt;|t|)    
+## log(NY.GDP.MKTP.KD) 0.844283    0.04692  17.994 &lt; 2.2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## RMSE: 0.202209     Adj. R2: 0.990947
+##                  Within R2: 0.520224
+```
+
+``` r
+etable(reg4, reg5)
+```
+
+```
+##                                   reg4                reg5
+## Dependent Var.:         NE.CON.TOTL.KD log(NE.CON.TOTL.KD)
+##                                                           
+## NY.GDP.MKTP.KD      0.7094*** (0.0820)                    
+## log(NY.GDP.MKTP.KD)                     0.8443*** (0.0469)
+## Fixed-Effects:      ------------------ -------------------
+## country                            Yes                 Yes
+## year                               Yes                 Yes
+## ___________________ __________________ ___________________
+## S.E.: Clustered            by: country         by: country
+## Observations                     7,170               7,170
+## R2                             0.99494             0.99125
+## Within R2                      0.96623             0.52022
+## ---
+## Signif. codes: 0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
 ```
 ]
     </textarea>

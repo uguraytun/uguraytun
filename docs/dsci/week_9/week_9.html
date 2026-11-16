@@ -750,26 +750,15 @@ gc()
 ```
 
 ```
-##           used (Mb) gc trigger (Mb) max used (Mb)
-## Ncells  601590 32.2    1388324 74.2   660385 35.3
-## Vcells 1122836  8.6    8388608 64.0  1769932 13.6
+##          used (Mb) gc trigger (Mb) max used (Mb)
+## Ncells 533542 28.5    1195510 63.9   657791 35.2
+## Vcells 973111  7.5    8388608 64.0  1768379 13.5
 ```
 
 ``` r
 #library(&#39;R.utils&#39;)
 library(data.table)
-```
-
-```
-## Warning: package &#39;data.table&#39; was built under R version 4.3.3
-```
-
-``` r
 library(sf)
-```
-
-```
-## Warning: package &#39;sf&#39; was built under R version 4.3.3
 ```
 
 ```
@@ -779,19 +768,8 @@ library(sf)
 ``` r
 library(ggplot2)
 library(maps)
-```
-
-```
-## Warning: package &#39;maps&#39; was built under R version 4.3.3
-```
-
-``` r
 library(scales)  # for squish
 library(dplyr)
-```
-
-```
-## Warning: package &#39;dplyr&#39; was built under R version 4.3.3
 ```
 
 ```
@@ -819,10 +797,6 @@ library(dplyr)
 
 ``` r
 library(fixest)
-```
-
-```
-## Warning: package &#39;fixest&#39; was built under R version 4.3.3
 ```
 
 ```
@@ -879,8 +853,20 @@ summary(reg_brexit)
 ```
 
 ``` r
-# The coefficient of the treatment variable is 0.12, 
-# which means that the Brexit had a negative effect on the Turkey after 2016 export to the UK compared to other partners.
+# The coefficient of the treatment variable is negative (about -0.14).
+# Since the outcome is in logs, the percentage effect is exp(beta) - 1:
+
+exp(coef(reg_brexit)[&quot;treatment&quot;]) - 1
+```
+
+```
+##  treatment 
+## -0.1303444
+```
+
+``` r
+# i.e. after 2016, Turkish exports to the UK were about 13% lower
+# than to other partners, relative to the pre-Brexit period.
 ```
 
 ]
@@ -899,13 +885,7 @@ summary(reg_brexit)
 library(data.table)
 library(fixest)
 library(causaldata)
-```
 
-```
-## Warning: package &#39;causaldata&#39; was built under R version 4.3.3
-```
-
-``` r
 # call the organ donations dataset  
 od &lt;- causaldata::organ_donations
 
@@ -1007,7 +987,17 @@ coefplot(clfe)
 
 --
 
-- Modern methods for staggered DiD include the use of synthetic control methods, which create a synthetic control group that mimics the characteristics of the treatment group before the treatment.
+- With staggered timing, the standard two-way fixed effects (TWFE) regression can be biased: already-treated units act as controls for later-treated units, and some comparisons get negative weights (Goodman-Bacon, 2021).
+
+
+--
+
+- Modern estimators fix this by comparing each treated cohort only with not-yet-treated or never-treated units: Callaway &amp; Sant&#39;Anna (2021), Sun &amp; Abraham (2021), Borusyak, Jaravel &amp; Spiess (2024). In `fixest`, Sun &amp; Abraham is available with `sunab()`.
+
+
+--
+
+- Synthetic control is a different method: it builds a weighted combination of control units that mimics a single treated unit (e.g. California) before the treatment.
 
 
 

@@ -153,8 +153,13 @@ reg_brexit <- feols(log(value) ~
                     cluster = c("partnercode"))
 summary(reg_brexit)
 
-# The coefficient of the treatment variable is 0.12, 
-# which means that the Brexit had a negative effect on the Turkey after 2016 export to the UK compared to other partners.
+# The coefficient of the treatment variable is negative (about -0.14).
+# Since the outcome is in logs, the percentage effect is exp(beta) - 1:
+
+exp(coef(reg_brexit)["treatment"]) - 1
+
+# i.e. after 2016, Turkish exports to the UK were about 13% lower
+# than to other partners, relative to the pre-Brexit period.
 
 
 
@@ -248,7 +253,17 @@ coefplot(clfe)
 
 --
 
-- Modern methods for staggered DiD include the use of synthetic control methods, which create a synthetic control group that mimics the characteristics of the treatment group before the treatment.
+- With staggered timing, the standard two-way fixed effects (TWFE) regression can be biased: already-treated units act as controls for later-treated units, and some comparisons get negative weights (Goodman-Bacon, 2021).
+
+
+--
+
+- Modern estimators fix this by comparing each treated cohort only with not-yet-treated or never-treated units: Callaway & Sant'Anna (2021), Sun & Abraham (2021), Borusyak, Jaravel & Spiess (2024). In `fixest`, Sun & Abraham is available with `sunab()`.
+
+
+--
+
+- Synthetic control is a different method: it builds a weighted combination of control units that mimics a single treated unit (e.g. California) before the treatment.
 
 
 

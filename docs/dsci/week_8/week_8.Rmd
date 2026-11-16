@@ -171,7 +171,12 @@ countries <-  WDI_data$country
 
 dat2 <- WDI(indicator = c("NY.GDP.MKTP.KD.ZG", # GDP growth
                          "NV.IND.MANF.KD.ZG"), # manufacturing growth
-           country = c("all"), start = 1960, end = 2025)
+           country = c("all"), start = 1960, end = 2025,
+           extra = TRUE) # adds region, income level etc.
+
+# "all" also returns aggregates (World, Euro area, income groups...).
+# Keep only individual countries, otherwise they are counted twice.
+dat2 <- dat2[dat2$region != "Aggregates" & !is.na(dat2$region), ]
 
 
 # without fixed effects
@@ -204,7 +209,7 @@ etable(reg1, reg2)
 
 
 ---
-# Marginal propenity to consumption (MPC) and the consumption function
+# Marginal propensity to consume (MPC) vs. income elasticity
 .scrollable[
 ```{r}
 # marginal propensity to consume (MPC)
@@ -227,17 +232,39 @@ gdp_datasets <- WDIsearch(string = "gdp",
 
 dat3 <- WDI(indicator = c("NE.CON.TOTL.KD", # Final consumption expenditure (constant 2015 US$)
                           "NY.GDP.MKTP.KD"), # GDP
-           country = c("all"), start = 1960, end = 2025)
+           country = c("all"), start = 1960, end = 2025,
+           extra = TRUE)
+
+# drop aggregates (World, regions, income groups)
+dat3 <- dat3[dat3$region != "Aggregates" & !is.na(dat3$region), ]
 
 
-reg4 <- feols(log(NE.CON.TOTL.KD) ~ 
+# 1) MPC: regression in levels. The coefficient is dC/dY,
+#    i.e. how many dollars of consumption one extra dollar of GDP brings.
+
+reg4 <- feols(NE.CON.TOTL.KD ~
+                NY.GDP.MKTP.KD |
+                country + year, # fixed effects
+              cluster = c("country"), # cluster
+              data = dat3)
+
+summary(reg4)
+
+
+# 2) Log-log regression: the coefficient is NOT the MPC.
+#    It is the income ELASTICITY of consumption:
+#    a 1% increase in GDP is associated with a beta% increase in consumption.
+#    (MPC = elasticity x C/Y)
+
+reg5 <- feols(log(NE.CON.TOTL.KD) ~
                 log(NY.GDP.MKTP.KD) |
                 country + year, # fixed effects
               cluster = c("country"), # cluster
               data = dat3)
 
+summary(reg5)
 
-summary(reg4)
+etable(reg4, reg5)
 
 
 
