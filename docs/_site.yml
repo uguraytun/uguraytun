@@ -15,3 +15,6 @@ navbar:
       href: media.html
     - text: "Contact"
       href: contact.html
+output:
+  html_document:
+    css: styles.css
