@@ -1,5 +1,6 @@
 ---
   title: "Global value chain integration and productivity: The case of Turkish manufacturing firms"
+  pagetitle: "Global value chain integration and productivity: The case of Turkish manufacturing firms | Ugur Aytun"
   output: html_document
 #date: "2024-10-20"
 ---

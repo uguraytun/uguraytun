@@ -1,5 +1,6 @@
 ---
 title: "Shooting down trade: Firm-level effects of embargoes"
+pagetitle: "Shooting down trade: Firm-level effects of embargoes | Ugur Aytun"
 output: html_document
 #date: "2024-10-20"
 ---

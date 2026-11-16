@@ -1,5 +1,6 @@
 ---
 title: "Firm-level Effects of Minimum Wages"
+pagetitle: "Firm-level Effects of Minimum Wages | Ugur Aytun"
 output: html_document
 #date: "2024-10-20"
 ---

@@ -1,5 +1,6 @@
 ---
 title: "A Regional Approach to the Premature Deindustrialization in the Turkish Economy"
+pagetitle: "A Regional Approach to the Premature Deindustrialization in the Turkish Economy | Ugur Aytun"
 output: html_document
 #date: "2024-10-20"
 ---

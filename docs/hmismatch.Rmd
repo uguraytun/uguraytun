@@ -1,5 +1,6 @@
 ---
   title: "Wage Returns to Field of Study-Occupation Mismatch in Turkish Graduate Labor Market: Quantile Regression Approach"
+  pagetitle: "Wage Returns to Field of Study-Occupation Mismatch in Turkish Graduate Labor Market: Quantile Regression Approach | Ugur Aytun"
   output: html_document
 #date: "2024-10-20"
 ---

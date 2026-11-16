@@ -1,5 +1,6 @@
 ---
 title: "Robots, Employment and Wages: Evidence from Turkish Labor Markets"
+pagetitle: "Robots, Employment and Wages: Evidence from Turkish Labor Markets | Ugur Aytun"
 output: html_document
 ---
 

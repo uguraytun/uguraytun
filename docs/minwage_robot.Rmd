@@ -1,5 +1,6 @@
 ---
 title: "The Impact of Minimum Wage Shock on Robot Adaption in Turkey"
+pagetitle: "The Impact of Minimum Wage Shock on Robot Adaption in Turkey | Ugur Aytun"
 output: html_document
 #date: "2024-10-20"
 ---

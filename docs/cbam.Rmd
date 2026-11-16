@@ -1,5 +1,6 @@
 ---
 title: "Even the Announcement Matters? The Effect of the Carbon Border Adjustment Mechanism on Exporter Behavior"
+pagetitle: "Even the Announcement Matters? The Effect of the Carbon Border Adjustment Mechanism on Exporter Behavior | Ugur Aytun"
 output: html_document
 #date: "2024-10-20"
 ---

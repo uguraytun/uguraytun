@@ -1,5 +1,6 @@
 ---
 title: "How far the apple falls from the tree: Intergenerational transmission of educational attainment in Indonesia"
+pagetitle: "How far the apple falls from the tree: Intergenerational transmission of educational attainment in Indonesia | Ugur Aytun"
 output: html_document
 ---
 

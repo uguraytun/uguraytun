@@ -1,5 +1,6 @@
 ---
 title: "Courses"
+pagetitle: "Courses | Ugur Aytun"
 output: html_document
 #date: "2024-10-20"
 ---

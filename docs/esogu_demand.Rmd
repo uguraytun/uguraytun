@@ -1,5 +1,6 @@
 ---
 title: "Industry Level Competitiveness and Adaptation to World Demand: An Analysis on Turkey and Selected Countries"
+pagetitle: "Industry Level Competitiveness and Adaptation to World Demand: An Analysis on Turkey and Selected Countries | Ugur Aytun"
 output: html_document
 #date: "2024-10-20"
 ---

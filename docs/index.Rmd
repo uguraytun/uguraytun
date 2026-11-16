@@ -1,6 +1,9 @@
 ---
 title: "Ugur Aytun"
-output: html_document
+output:
+  html_document:
+    includes:
+      in_header: meta_home.html
 #date: "2024-10-20"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Trade Liberalization and Firm-Level Prices"
+pagetitle: "Trade Liberalization and Firm-Level Prices | Ugur Aytun"
 output: html_document
 #date: "2024-10-20"
 ---

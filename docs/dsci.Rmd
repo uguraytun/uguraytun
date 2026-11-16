@@ -1,5 +1,6 @@
 ---
 title: "Introduction to Data Science (ECON 413)"
+pagetitle: "Introduction to Data Science (ECON 413) | Ugur Aytun"
 output: html_document
 #date: "2024-10-20" 
 ---

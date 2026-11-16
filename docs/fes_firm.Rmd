@@ -1,5 +1,6 @@
 ---
 title: "Firm-level Gravity with Fixed Effects"
+pagetitle: "Firm-level Gravity with Fixed Effects | Ugur Aytun"
 output: html_document
 #date: "2024-10-20"
 ---

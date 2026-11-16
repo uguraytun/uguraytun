@@ -1,5 +1,6 @@
 ---
 title: "Exchange rate elasticity of exports and firm heterogeneity: Evidence from Turkish manufacturing firms"
+pagetitle: "Exchange rate elasticity of exports and firm heterogeneity: Evidence from Turkish manufacturing firms | Ugur Aytun"
 output: html_document
 #date: "2024-10-20"
 ---
