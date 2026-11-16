@@ -10,7 +10,7 @@ output: html_document
 
 ## 
 
-[Taşeron çalışma: Türkiye deneyiminden dersler (II)](https://sarkac.org/?p=26526&preview=1&_ppp=58ddeb0cff), with [Eren Gürer](https://sites.google.com/view/erengurer) and [Erol Taymaz](https://users.metu.edu.tr/etaymaz/index.html) in Sarkaç blog (in Turkish).
+[Taşeron çalışma: Türkiye deneyiminden dersler (II)](https://sarkac.org/2026/09/taseron-calisma-turkiye-deneyiminden-dersler-ii/), with [Eren Gürer](https://sites.google.com/view/erengurer) and [Erol Taymaz](https://users.metu.edu.tr/etaymaz/index.html) in Sarkaç blog (in Turkish).
 
 [Taşeron çalışma ve ücretler: Taşeron çalışmanın iki yüzü](https://sarkac.org/2026/08/taseron-calisma-ve-ucretler-taseron-calismanin-iki-yuzu/), with [Eren Gürer](https://sites.google.com/view/erengurer) and [Erol Taymaz](https://users.metu.edu.tr/etaymaz/index.html) in Sarkaç blog (in Turkish).
 

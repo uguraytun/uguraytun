@@ -1,4 +1,5 @@
 name: "Ugur Aytun"
+output_dir: "."
 navbar:
   title: "Ugur Aytun"
   left:
